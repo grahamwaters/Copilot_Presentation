@@ -1,0 +1,62 @@
+[
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "OffsetImage",
+        "importPath": "matplotlib.offsetbox",
+        "description": "matplotlib.offsetbox",
+        "isExtraImport": true,
+        "detail": "matplotlib.offsetbox",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "urllib",
+        "description": "urllib",
+        "isExtraImport": true,
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "example_one",
+        "kind": 2,
+        "importPath": "copilot.example_one",
+        "description": "copilot.example_one",
+        "peekOfCode": "def example_one(string):\n    \"\"\"\n    example_one is a function that takes a string as its input, and reverses the order of the characters in the string.\n    then it removes all the letters that are in prime positions in the string such as the first, third, fifth, etc.\n    :param string: the string to be reversed and modified\n    :type string: string\n    :return: the modified string\n    :rtype: string\n    \"\"\"\n    string = string[::-1]",
+        "detail": "copilot.example_one",
+        "documentation": {}
+    },
+    {
+        "label": "copilot_proportion",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def copilot_proportion():\n    total_developers = 100\n    copilot_users = 20\n    proportion = copilot_users / total_developers\n    fig, ax = plt.subplots()\n    copilot_icon = Image.open(request.urlopen(\"https://github.githubassets.com/images/icons/copilot/cp-head-square.png\"))\n    copilot_icon = np.array(copilot_icon)\n    copilot_icon = OffsetImage(copilot_icon, zoom=0.1)\n    not_copilot_icon = Image.open(request.urlopen(\"https://cdn-icons-png.flaticon.com/512/6515/6515181.png\"))\n    not_copilot_icon = np.array(not_copilot_icon)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
