@@ -9,7 +9,13 @@ from ratelimit import limits, sleep_and_retry
 from textblob import TextBlob
 # import Counter
 from collections import Counter
-
+import tldextract
+# import Vader Sentiment Analyzer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+# import tqdm
+from tqdm import tqdm
+# import nltk
+import nltk
 #& Helper Functions
 def title_diviner(href):
     # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.

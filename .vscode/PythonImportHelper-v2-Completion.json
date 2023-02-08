@@ -355,6 +355,14 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "yfinance",
         "kind": 6,
         "isExtraImport": true,
@@ -1170,6 +1178,14 @@
         "description": "collections",
         "isExtraImport": true,
         "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "SentimentIntensityAnalyzer",
+        "importPath": "nltk.sentiment.vader",
+        "description": "nltk.sentiment.vader",
+        "isExtraImport": true,
+        "detail": "nltk.sentiment.vader",
         "documentation": {}
     },
     {
