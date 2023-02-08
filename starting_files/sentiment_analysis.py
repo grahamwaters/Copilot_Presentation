@@ -9,19 +9,19 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import sent_tokenize
 import seaborn as sns
 import matplotlib.pyplot as plt
+import re
+
+
+import requests
+import re
 
 def get_book():
     """
     get_book Use the Gutenberg Project API to get the text of the book.
     """
     book = requests.get('http://www.gutenberg.org/files/1400/1400-0.txt').text
-    # just get the first chapter for now which is the second occurrence of 'Chapter I' to the second occurrence of 'Chapter II'
-    # second occurrence of 'Chapter I' is second element of find all 'Chapter I'
-    start = book.find_all('Chapter I')[1]
-    end = book.find_all('Chapter II')[1]
-    book = book[start:end]
-    print(book)
-    return book
+    return book[0:100000]
+
 
 def tokenize(book):
     """
@@ -43,10 +43,14 @@ def get_sentiment(sentences):
 
 def swarm_plot(sentiment_scores):
     """
-    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot.
+    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot. Use the matplotlib library to add a title to the plot. Use the matplotlib library to save the plot as a png file. y-axis is the index of the sentence, x-axis is the sentiment score
     """
     df = pd.DataFrame(sentiment_scores)
-    sns.swarmplot(x='compound', y='sentence', data=df)
+    df['index'] = df.index
+    sns.swarmplot(x='compound', y='index', data=df)
+    add_title()
+    save_plot()
+
 
 def add_title():
     """

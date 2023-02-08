@@ -3044,7 +3044,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def get_book():\n    \"\"\"\n    get_book Use the Gutenberg Project API to get the text of the book.\n    \"\"\"\n    book = requests.get('http://www.gutenberg.org/files/1400/1400-0.txt').text\n    # just get the first chapter for now which is the second occurrence of 'Chapter I' to the second occurrence of 'Chapter II'\n    # second occurrence of 'Chapter I' is second element of find all 'Chapter I'\n    start = book.find_all('Chapter I')[1]\n    end = book.find_all('Chapter II')[1]\n    book = book[start:end]",
+        "peekOfCode": "def get_book():\n    \"\"\"\n    get_book Use the Gutenberg Project API to get the text of the book.\n    \"\"\"\n    book = requests.get('http://www.gutenberg.org/files/1400/1400-0.txt').text\n    return book[0:100000]\ndef tokenize(book):\n    \"\"\"\n    tokenize Use the nltk library to tokenize the text into sentences.\n    \"\"\"",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
@@ -3071,7 +3071,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def swarm_plot(sentiment_scores):\n    \"\"\"\n    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot.\n    \"\"\"\n    df = pd.DataFrame(sentiment_scores)\n    sns.swarmplot(x='compound', y='sentence', data=df)\ndef add_title():\n    \"\"\"\n    add_title Use the matplotlib library to add a title to the plot.\n    \"\"\"",
+        "peekOfCode": "def swarm_plot(sentiment_scores):\n    \"\"\"\n    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot. Use the matplotlib library to add a title to the plot. Use the matplotlib library to save the plot as a png file. y-axis is the index of the sentence, x-axis is the sentiment score\n    \"\"\"\n    df = pd.DataFrame(sentiment_scores)\n    df['index'] = df.index\n    sns.swarmplot(x='compound', y='index', data=df)\n    add_title()\n    save_plot()\ndef add_title():",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
