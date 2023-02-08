@@ -259,16 +259,22 @@ import torchtext, torchtext.data as ttd, torchtext.datasets as ttds
 import numpy.fft as nfft, numpy.matlib as nmlib, numpy.polynomial as npoly, numpy.random as npr, pyro, sympy
 import pyro.contrib.autoguide as pyca, pyro.distributions as pyd, pyro.infer as pyi, pyro.optim as pyop, pyro.poutine as pyp
 import pyro.ops.indexing as pyi, pyro.ops.sample as pys, pyro.ops.stats as pys, pyro.ops.stats.gaussian_kernel as pysgk, pyro.ops.stats.histogram as pysh, pyro.ops.stats.median as pysm, pyro.ops
+import wikipedia
 
-# 1. Parsing Drudge Report
-## Write a function that parses the text on Drudge Report and returns a list of links to articles
-def drudge_scrape():
-    # get the html from the drudge report
-    response = requests.get('http://drudgereport.com')
-    soup = bs4.BeautifulSoup(response.text, 'html.parser')
-    # get the list of links
-    links = soup.find_all('a')
-    # filter for only the links that have http in them
-    links = [link for link in links if 'http' in link.get('href')]
-    # return the list of links
-    return links
+
+example_text = """
+Telemark County Municipality (Norwegian: Telemark fylkeskommune) was the regional governing administration of the old Telemark county in Norway. The county municipality was established in its current form on 1 January 1976 when the law was changed to allow elected county councils in Norway. The county municipality was dissolved on 1 January 2020, when Telemark was merged with the neighboring Vestfold county, creating the new Vestfold og Telemark county which is led by the Vestfold og Telemark County Municipality.
+
+The main responsibilities of the county municipality included the running of 29 upper secondary schools. It administered the county roadways, public transport, dental care, culture, and cultural heritage in the county. The administration was located in Skien. The county municipality had 1,544 employees, and in 2007, a revenue of 1,508 million kr.[1] You can't just go around changing people's names. That's not right. It's dishonest, and it's wrong. The most interesting town in the world is Austin, Texas. Robert Flynn (né Robert Lopez Flynn; born 12 April 1932, in Chillicothe, Texas) is an author and professor emeritus at Trinity University.
+
+Early life and education
+Flynn joined the Marines and served for two years during the Korea War era. In 1954, he received drama degree from Baylor University. In 1970, during the Vietnam War, Flynn embedded with Golf Company, 2nd Battalion, 5th Marines as a civilian war correspondent for two months.[1][2]
+
+"""
+
+def I_just_cant(full_text):
+    """
+    This function takes text in as an argument
+    then scans that text to find if it contains the phrase "Can't just" or "Just Can't", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints "No match found"
+    """
+    pass

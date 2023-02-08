@@ -188,6 +188,38 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "seaborn",
         "kind": 6,
         "isExtraImport": true,
@@ -248,6 +280,22 @@
         "importPath": "nltk",
         "description": "nltk",
         "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -431,11 +479,91 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "bs4",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "bs4",
         "description": "bs4",
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
         "detail": "bs4",
         "documentation": {}
     },
@@ -513,27 +641,19 @@
         "documentation": {}
     },
     {
-        "label": "figure",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
         "isExtraImport": true,
-        "detail": "bokeh.plotting",
+        "detail": "textblob",
         "documentation": {}
     },
     {
-        "label": "show",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
         "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "output_file",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
+        "detail": "textblob",
         "documentation": {}
     },
     {
@@ -578,6 +698,78 @@
     },
     {
         "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
         "importPath": "bokeh.plotting",
         "description": "bokeh.plotting",
         "isExtraImport": true,
@@ -673,6 +865,54 @@
         "documentation": {}
     },
     {
+        "label": "ColumnDataSource",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "HoverTool",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnDataSource",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "HoverTool",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "factor_cmap",
+        "importPath": "bokeh.transform",
+        "description": "bokeh.transform",
+        "isExtraImport": true,
+        "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "factor_cmap",
+        "importPath": "bokeh.transform",
+        "description": "bokeh.transform",
+        "isExtraImport": true,
+        "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
         "label": "factor_cmap",
         "importPath": "bokeh.transform",
         "description": "bokeh.transform",
@@ -702,6 +942,22 @@
         "description": "bokeh.transform",
         "isExtraImport": true,
         "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Spectral6",
+        "importPath": "bokeh.palettes",
+        "description": "bokeh.palettes",
+        "isExtraImport": true,
+        "detail": "bokeh.palettes",
+        "documentation": {}
+    },
+    {
+        "label": "Spectral6",
+        "importPath": "bokeh.palettes",
+        "description": "bokeh.palettes",
+        "isExtraImport": true,
+        "detail": "bokeh.palettes",
         "documentation": {}
     },
     {
@@ -742,6 +998,22 @@
         "isExtraImport": true,
         "importPath": "bokeh.io",
         "description": "bokeh.io",
+        "detail": "bokeh.io",
+        "documentation": {}
+    },
+    {
+        "label": "output_notebook",
+        "importPath": "bokeh.io",
+        "description": "bokeh.io",
+        "isExtraImport": true,
+        "detail": "bokeh.io",
+        "documentation": {}
+    },
+    {
+        "label": "output_notebook",
+        "importPath": "bokeh.io",
+        "description": "bokeh.io",
+        "isExtraImport": true,
         "detail": "bokeh.io",
         "documentation": {}
     },
@@ -956,20 +1228,21 @@
         "documentation": {}
     },
     {
+        "label": "wikipedia",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wikipedia",
+        "description": "wikipedia",
+        "detail": "wikipedia",
+        "documentation": {}
+    },
+    {
         "label": "os,",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os.",
         "description": "os.",
         "detail": "os.",
-        "documentation": {}
-    },
-    {
-        "label": "all the libraries into memory",
-        "importPath": "knowledgebase import * #",
-        "description": "knowledgebase import * #",
-        "isExtraImport": true,
-        "detail": "knowledgebase import * #",
         "documentation": {}
     },
     {
@@ -2125,6 +2398,15 @@
         "documentation": {}
     },
     {
+        "label": "speak_for_the_trees",
+        "kind": 2,
+        "importPath": "demos.austin_trees_folium.folium_trees_demo",
+        "description": "demos.austin_trees_folium.folium_trees_demo",
+        "peekOfCode": "def speak_for_the_trees():\n    # the Austonian Lorax that speaks for the trees\n    print(\"I speak for the trees!\")\n    \"\"\"\n    Create A Data visualization of Trees in Austin using Folium Tree data for Austin, Texas can be accessed via API at: https://data.austintexas.gov/resource/wrik-xasw.json ## Instructions - Create a Folium map of Austin, Texas that has tree data from the API above. - The map should show the roads, parks, and trees in Austin, Texas. - Trees should be represented by a green circle. - Parks should be represented by a blue circle. - Roads should be represented by a black line.\n    \"\"\"\n    # Get tree data from API\n    url = \"https://data.austintexas.gov/resource/wrik-xasw.json\"\n    trees = requests.get(url).json()\n    # Create Folium map centered on Austin, Texas",
+        "detail": "demos.austin_trees_folium.folium_trees_demo",
+        "documentation": {}
+    },
+    {
         "label": "get_drudge_links",
         "kind": 2,
         "importPath": "src.1",
@@ -2149,123 +2431,6 @@
         "description": "src.empty_project_example",
         "peekOfCode": "def read_xlsx(file_path):\n    # Read in the file\n    with pd.ExcelFile(file_path) as xlsx:\n        # Get the sheet names\n        sheet_names = xlsx.sheet_names\n        # Create an empty dictionary to store the dataframes\n        dfs = {}\n        # Iterate through the sheets\n        for sheet in sheet_names:\n            # Get the dataframe from the sheet",
         "detail": "src.empty_project_example",
-        "documentation": {}
-    },
-    {
-        "label": "get_drudge_links",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def get_drudge_links():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    #* loop over the links and add them to the list",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "get_csv_column_types",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)\n    #* get the column names\n    column_names = list(df.columns)\n    #* convert the dataframe to a list of lists\n    df = df.values.tolist()\n    #* initialize a list to hold the types of the first row\n    column_types = []\n    #* loop over the first row to get the types",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "capitalize_list_of_strings",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def capitalize_list_of_strings(list_of_strings):\n    return [i.capitalize() for i in list_of_strings]\n# example four\ndef get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "get_aapl_price",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests\n@sleep_and_retry\ndef request_page(url):\n    #* get the html",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "request_page",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def request_page(url):\n    #* get the html\n    r = requests.get(url)\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the title\n    title = page_soup.title.text\n    #* get the sentiment score\n    sentiment_score = TextBlob(title).sentiment.polarity\n    #* return the title and the sentiment score",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "title_diviner",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def title_diviner(href):\n    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.\n    #* get the index of the last /\n    last_slash = href.rfind('/')\n    #* get the index of the last -\n    last_dash = href.rfind('-')\n    #* get the title\n    title = href[last_slash+1:last_dash]\n    # replace the dashes with spaces\n    title = title.replace('-', ' ')",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "get_drudge_titles",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def get_drudge_titles():\n    \"\"\"\n    parses the html returned by bs4 from drudge report and returns a list of the article titles. This feeds into function seven.\n    \"\"\"\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "drudge_sentiment_mapping",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def drudge_sentiment_mapping():\n    \"\"\"\n    takes the titles of the articles on the drudge report and performs a basic sentiment analysis on them. The function returns a list of tuples with the title and the sentiment score. This feeds into function seven.\n    \"\"\"\n    #* get the titles\n    titles = get_drudge_titles()\n    links = get_drudge_links()\n    #* initialize a list to hold the titles and sentiment scores\n    title_sentiment = []\n    #* loop over the titles and get the sentiment scores",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "make_swarmplot",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def make_swarmplot():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn. The swarmplot shows the sentiment scores of all article titles on the drudge report page right now. where the color of the square is the sentiment score, the position has no meaning, and the size of the square is the number of words in the title. The function should return the plot and save it to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    #* get the sentiment scores\n    sentiment_scores = drudge_sentiment_mapping()\n    #* initialize a list to hold the number of words in the title\n    # to get the values to plot we want to extract the second element from the tuples in the sentiment_scores list (i.e. ('over killed after catastrophic earthquakes hit turkey syria', -0.2) has a value of -0.2) and then get the length of the first element in the tuple (i.e. 'over killed after catastrophic earthquakes hit turkey syria' has a length of 9)\n    num_words = [len(i[0].split()) for i in sentiment_scores]\n    #* initialize a list to hold the sentiment scores",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "get_domain_name",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def get_domain_name(url):\n    \"\"\"\n    takes a url and returns the domain name of the url. This feeds into function nine.\n    \"\"\"\n    #* get the domain name\n    domain_name = tldextract.extract(url).domain\n    #* return the domain name\n    return domain_name\n# example eight\ndef make_swarmplot_v2():",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "make_swarmplot_v2",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def make_swarmplot_v2():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn.\n    The swarmplot shows the sentiment scores of all article titles on the drudge report page right now.\n    The y axis is categorical and shows the domain name of the article (i.e. CNN, FOX News, etc.)\n    The x axis is the sentiment score\n    The position of the points in the swarm plot along the x-axis is set by the sentiment score of the title and the position along the y-axis is set by the domain name of the article.\n    Finally, save the plot to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    links = get_drudge_links()",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "src.example_two",
-        "description": "src.example_two",
-        "peekOfCode": "def main():\n    # #* example one\n    # print('example one')\n    # print(get_drudge_links())\n    # print()\n    # #* example two\n    # print('example two')\n    # print(get_csv_column_types('data.csv'))\n    # print()\n    # #* example three",
-        "detail": "src.example_two",
-        "documentation": {}
-    },
-    {
-        "label": "speak_for_the_trees",
-        "kind": 2,
-        "importPath": "src.folium_trees_demo",
-        "description": "src.folium_trees_demo",
-        "peekOfCode": "def speak_for_the_trees():\n    # the Austonian Lorax that speaks for the trees\n    print(\"I speak for the trees!\")\n    \"\"\"\n    Create A Data visualization of Trees in Austin using Folium Tree data for Austin, Texas can be accessed via API at: https://data.austintexas.gov/resource/wrik-xasw.json ## Instructions - Create a Folium map of Austin, Texas that has tree data from the API above. - The map should show the roads, parks, and trees in Austin, Texas. - Trees should be represented by a green circle. - Parks should be represented by a blue circle. - Roads should be represented by a black line.\n    \"\"\"\n    # Get tree data from API\n    url = \"https://data.austintexas.gov/resource/wrik-xasw.json\"\n    trees = requests.get(url).json()\n    # Create Folium map centered on Austin, Texas",
-        "detail": "src.folium_trees_demo",
         "documentation": {}
     },
     {
@@ -2323,6 +2488,141 @@
         "documentation": {}
     },
     {
+        "label": "get_drudge_links",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def get_drudge_links():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    #* loop over the links and add them to the list",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "get_csv_column_types",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)\n    #* get the column names\n    column_names = list(df.columns)\n    #* convert the dataframe to a list of lists\n    df = df.values.tolist()\n    #* initialize a list to hold the types of the first row\n    column_types = []\n    #* loop over the first row to get the types",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "capitalize_list_of_strings",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def capitalize_list_of_strings(list_of_strings):\n    return [i.capitalize() for i in list_of_strings]\n# example four\ndef get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "get_aapl_price",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests\n@sleep_and_retry\ndef request_page(url):\n    #* get the html",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "request_page",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def request_page(url):\n    #* get the html\n    r = requests.get(url)\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the title\n    title = page_soup.title.text\n    #* get the sentiment score\n    sentiment_score = TextBlob(title).sentiment.polarity\n    #* return the title and the sentiment score",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "title_diviner",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def title_diviner(href):\n    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.\n    #* get the index of the last /\n    last_slash = href.rfind('/')\n    #* get the index of the last -\n    last_dash = href.rfind('-')\n    #* get the title\n    title = href[last_slash+1:last_dash]\n    # replace the dashes with spaces\n    title = title.replace('-', ' ')",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "get_drudge_titles",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def get_drudge_titles():\n    \"\"\"\n    parses the html returned by bs4 from drudge report and returns a list of the article titles. This feeds into function seven.\n    \"\"\"\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "drudge_sentiment_mapping",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def drudge_sentiment_mapping():\n    \"\"\"\n    takes the titles of the articles on the drudge report and performs a basic sentiment analysis on them. The function returns a list of tuples with the title and the sentiment score. This feeds into function seven.\n    \"\"\"\n    #* get the titles\n    titles = get_drudge_titles()\n    links = get_drudge_links()\n    #* initialize a list to hold the titles and sentiment scores\n    title_sentiment = []\n    #* loop over the titles and get the sentiment scores",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "make_swarmplot",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def make_swarmplot():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn. The swarmplot shows the sentiment scores of all article titles on the drudge report page right now. where the color of the square is the sentiment score, the position has no meaning, and the size of the square is the number of words in the title. The function should return the plot and save it to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    #* get the sentiment scores\n    sentiment_scores = drudge_sentiment_mapping()\n    #* initialize a list to hold the number of words in the title\n    # to get the values to plot we want to extract the second element from the tuples in the sentiment_scores list (i.e. ('over killed after catastrophic earthquakes hit turkey syria', -0.2) has a value of -0.2) and then get the length of the first element in the tuple (i.e. 'over killed after catastrophic earthquakes hit turkey syria' has a length of 9)\n    num_words = [len(i[0].split()) for i in sentiment_scores]\n    #* initialize a list to hold the sentiment scores",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "get_domain_name",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def get_domain_name(url):\n    \"\"\"\n    takes a url and returns the domain name of the url. This feeds into function nine.\n    \"\"\"\n    #* get the domain name\n    domain_name = tldextract.extract(url).domain\n    #* return the domain name\n    return domain_name\n# example eight\ndef make_swarmplot_v2():",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "make_swarmplot_v2",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def make_swarmplot_v2():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn.\n    The swarmplot shows the sentiment scores of all article titles on the drudge report page right now.\n    The y axis is categorical and shows the domain name of the article (i.e. CNN, FOX News, etc.)\n    The x axis is the sentiment score\n    The position of the points in the swarm plot along the x-axis is set by the sentiment score of the title and the position along the y-axis is set by the domain name of the article.\n    Finally, save the plot to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    links = get_drudge_links()",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.reference",
+        "description": "src.reference",
+        "peekOfCode": "def main():\n    # #* example one\n    # print('example one')\n    # print(get_drudge_links())\n    # print()\n    # #* example two\n    # print('example two')\n    # print(get_csv_column_types('data.csv'))\n    # print()\n    # #* example three",
+        "detail": "src.reference",
+        "documentation": {}
+    },
+    {
+        "label": "describing_chuck_norris_finder",
+        "kind": 2,
+        "importPath": "src.regex_creation",
+        "description": "src.regex_creation",
+        "peekOfCode": "def describing_chuck_norris_finder():\n    \"\"\"\n    This function gets a random wikipedia page\n    then scans that page to find if it has a sentence has a phrase describing things that Chuck Norris is/does/was/will be in the future using regex and prints the paragraph where the sentence occurs to the screen if it does, else keeps trying random pages until you find one that does have a match.\n    \"\"\"\n    # get a random wikipedia page\n    try:\n        random_page = wikipedia.random(pages=1)\n        # get the content of the page\n        page_content = wikipedia.page(random_page).content",
+        "detail": "src.regex_creation",
+        "documentation": {}
+    },
+    {
+        "label": "I_just_cant",
+        "kind": 2,
+        "importPath": "src.regex_creation",
+        "description": "src.regex_creation",
+        "peekOfCode": "def I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"\n    \"\"\"\n    # split the content into paragraphs\n    paragraphs = full_text.split('\\n')\n    # compile the regex\n    regex = re.compile(r'(?i)can\\'t just|just can\\'t')\n    # loop through the paragraphs",
+        "detail": "src.regex_creation",
+        "documentation": {}
+    },
+    {
+        "label": "example_text",
+        "kind": 5,
+        "importPath": "src.regex_creation",
+        "description": "src.regex_creation",
+        "peekOfCode": "example_text = \"\"\"\nTelemark County Municipality (Norwegian: Telemark fylkeskommune) was the regional governing administration of the old Telemark county in Norway. The county municipality was established in its current form on 1 January 1976 when the law was changed to allow elected county councils in Norway. The county municipality was dissolved on 1 January 2020, when Telemark was merged with the neighboring Vestfold county, creating the new Vestfold og Telemark county which is led by the Vestfold og Telemark County Municipality.\nThe main responsibilities of the county municipality included the running of 29 upper secondary schools. It administered the county roadways, public transport, dental care, culture, and cultural heritage in the county. The administration was located in Skien. The county municipality had 1,544 employees, and in 2007, a revenue of 1,508 million kr.[1] You can't just go around changing people's names. That's not right. It's dishonest, and it's wrong. The most interesting town in the world is Austin, Texas. Robert Flynn (né Robert Lopez Flynn; born 12 April 1932, in Chillicothe, Texas) is an author and professor emeritus at Trinity University.\nEarly life and education\nFlynn joined the Marines and served for two years during the Korea War era. In 1954, he received drama degree from Baylor University. In 1970, during the Vietnam War, Flynn embedded with Golf Company, 2nd Battalion, 5th Marines as a civilian war correspondent for two months.[1][2]\n\"\"\"\ndef describing_chuck_norris_finder():\n    \"\"\"\n    This function gets a random wikipedia page\n    then scans that page to find if it has a sentence has a phrase describing things that Chuck Norris is/does/was/will be in the future using regex and prints the paragraph where the sentence occurs to the screen if it does, else keeps trying random pages until you find one that does have a match.",
+        "detail": "src.regex_creation",
+        "documentation": {}
+    },
+    {
         "label": "read_xlsx",
         "kind": 2,
         "importPath": "src.sandbox",
@@ -2347,6 +2647,24 @@
         "description": "starting_files.drudgescraper",
         "peekOfCode": "def drudge_scrape():\n    # get the html from the drudge report\n    response = requests.get('http://drudgereport.com')\n    soup = bs4.BeautifulSoup(response.text, 'html.parser')\n    # get the list of links\n    links = soup.find_all('a')\n    # filter for only the links that have http in them\n    links = [link for link in links if 'http' in link.get('href')]\n    # return the list of links\n    return links",
         "detail": "starting_files.drudgescraper",
+        "documentation": {}
+    },
+    {
+        "label": "I_just_cant",
+        "kind": 2,
+        "importPath": "starting_files.regex_start",
+        "description": "starting_files.regex_start",
+        "peekOfCode": "def I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"\n    \"\"\"\n    pass",
+        "detail": "starting_files.regex_start",
+        "documentation": {}
+    },
+    {
+        "label": "example_text",
+        "kind": 5,
+        "importPath": "starting_files.regex_start",
+        "description": "starting_files.regex_start",
+        "peekOfCode": "example_text = \"\"\"\nTelemark County Municipality (Norwegian: Telemark fylkeskommune) was the regional governing administration of the old Telemark county in Norway. The county municipality was established in its current form on 1 January 1976 when the law was changed to allow elected county councils in Norway. The county municipality was dissolved on 1 January 2020, when Telemark was merged with the neighboring Vestfold county, creating the new Vestfold og Telemark county which is led by the Vestfold og Telemark County Municipality.\nThe main responsibilities of the county municipality included the running of 29 upper secondary schools. It administered the county roadways, public transport, dental care, culture, and cultural heritage in the county. The administration was located in Skien. The county municipality had 1,544 employees, and in 2007, a revenue of 1,508 million kr.[1] You can't just go around changing people's names. That's not right. It's dishonest, and it's wrong. The most interesting town in the world is Austin, Texas. Robert Flynn (né Robert Lopez Flynn; born 12 April 1932, in Chillicothe, Texas) is an author and professor emeritus at Trinity University.\nEarly life and education\nFlynn joined the Marines and served for two years during the Korea War era. In 1954, he received drama degree from Baylor University. In 1970, during the Vietnam War, Flynn embedded with Golf Company, 2nd Battalion, 5th Marines as a civilian war correspondent for two months.[1][2]\n\"\"\"\ndef I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"",
+        "detail": "starting_files.regex_start",
         "documentation": {}
     }
 ]
