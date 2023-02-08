@@ -25,6 +25,15 @@
         "documentation": {}
     },
     {
+        "label": "PIL",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PIL",
+        "description": "PIL",
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "Image",
         "importPath": "PIL",
         "description": "PIL",
@@ -155,6 +164,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "seaborn",
         "kind": 6,
         "isExtraImport": true,
@@ -215,6 +240,14 @@
         "importPath": "nltk",
         "description": "nltk",
         "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -334,6 +367,47 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "bs4",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bs4",
+        "description": "bs4",
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
         "label": "BeautifulSoup",
         "importPath": "bs4",
         "description": "bs4",
@@ -347,6 +421,31 @@
         "description": "bs4",
         "isExtraImport": true,
         "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "textblob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textblob",
+        "description": "textblob",
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
         "documentation": {}
     },
     {
@@ -414,6 +513,30 @@
         "documentation": {}
     },
     {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
         "label": "HoverTool",
         "importPath": "bokeh.models",
         "description": "bokeh.models",
@@ -446,6 +569,22 @@
         "documentation": {}
     },
     {
+        "label": "ColumnDataSource",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "HoverTool",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
         "label": "factor_cmap",
         "importPath": "bokeh.transform",
         "description": "bokeh.transform",
@@ -459,6 +598,22 @@
         "description": "bokeh.transform",
         "isExtraImport": true,
         "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "factor_cmap",
+        "importPath": "bokeh.transform",
+        "description": "bokeh.transform",
+        "isExtraImport": true,
+        "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Spectral6",
+        "importPath": "bokeh.palettes",
+        "description": "bokeh.palettes",
+        "isExtraImport": true,
+        "detail": "bokeh.palettes",
         "documentation": {}
     },
     {
@@ -483,6 +638,14 @@
         "isExtraImport": true,
         "importPath": "bokeh.io",
         "description": "bokeh.io",
+        "detail": "bokeh.io",
+        "documentation": {}
+    },
+    {
+        "label": "output_notebook",
+        "importPath": "bokeh.io",
+        "description": "bokeh.io",
+        "isExtraImport": true,
         "detail": "bokeh.io",
         "documentation": {}
     },
@@ -656,6 +819,1164 @@
         "documentation": {}
     },
     {
+        "label": "pycel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pycel",
+        "description": "pycel",
+        "detail": "pycel",
+        "documentation": {}
+    },
+    {
+        "label": "ExcelCompiler",
+        "importPath": "pycel.excelutil",
+        "description": "pycel.excelutil",
+        "isExtraImport": true,
+        "detail": "pycel.excelutil",
+        "documentation": {}
+    },
+    {
+        "label": "ExcelCompiler",
+        "importPath": "pycel.excelutil",
+        "description": "pycel.excelutil",
+        "isExtraImport": true,
+        "detail": "pycel.excelutil",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "all the libraries into memory",
+        "importPath": "knowledgebase import * #",
+        "description": "knowledgebase import * #",
+        "isExtraImport": true,
+        "detail": "knowledgebase import * #",
+        "documentation": {}
+    },
+    {
+        "label": "collections",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections",
+        "description": "collections",
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "unicodedata",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.graph_objs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.graph_objs",
+        "description": "plotly.graph_objs",
+        "detail": "plotly.graph_objs",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow_datasets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow_datasets",
+        "description": "tensorflow_datasets",
+        "detail": "tensorflow_datasets",
+        "documentation": {}
+    },
+    {
+        "label": "scipy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scipy",
+        "description": "scipy",
+        "detail": "scipy",
+        "documentation": {}
+    },
+    {
+        "label": "scipy.stats",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "statsmodels.api",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statsmodels.api",
+        "description": "statsmodels.api",
+        "detail": "statsmodels.api",
+        "documentation": {}
+    },
+    {
+        "label": "statsmodels.formula.api",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statsmodels.formula.api",
+        "description": "statsmodels.formula.api",
+        "detail": "statsmodels.formula.api",
+        "documentation": {}
+    },
+    {
+        "label": "patsy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "patsy",
+        "description": "patsy",
+        "detail": "patsy",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.preprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.metrics",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.model_selection",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.linear_model",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.ensemble",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.svm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.svm",
+        "description": "sklearn.svm",
+        "detail": "sklearn.svm",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.neighbors",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.neighbors",
+        "description": "sklearn.neighbors",
+        "detail": "sklearn.neighbors",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.naive_bayes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.tree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.cluster",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.cluster",
+        "description": "sklearn.cluster",
+        "detail": "sklearn.cluster",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.decomposition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn.manifold",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn.manifold",
+        "description": "sklearn.manifold",
+        "detail": "sklearn.manifold",
+        "documentation": {}
+    },
+    {
+        "label": "xgboost",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xgboost",
+        "description": "xgboost",
+        "detail": "xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "lightgbm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "lightgbm",
+        "description": "lightgbm",
+        "detail": "lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "keras",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras",
+        "description": "keras",
+        "detail": "keras",
+        "documentation": {}
+    },
+    {
+        "label": "keras.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras.models",
+        "description": "keras.models",
+        "detail": "keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "keras.layers",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "keras.preprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras.preprocessing",
+        "description": "keras.preprocessing",
+        "detail": "keras.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "pytorch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytorch",
+        "description": "pytorch",
+        "detail": "pytorch",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "torch.autograd",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.autograd",
+        "description": "torch.autograd",
+        "detail": "torch.autograd",
+        "documentation": {}
+    },
+    {
+        "label": "torch.utils.data",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "torchtext",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchtext",
+        "description": "torchtext",
+        "detail": "torchtext",
+        "documentation": {}
+    },
+    {
+        "label": "torchtext.data",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchtext.data",
+        "description": "torchtext.data",
+        "detail": "torchtext.data",
+        "documentation": {}
+    },
+    {
+        "label": "torchtext.datasets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchtext.datasets",
+        "description": "torchtext.datasets",
+        "detail": "torchtext.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "numpy.random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy.random",
+        "description": "numpy.random",
+        "detail": "numpy.random",
+        "documentation": {}
+    },
+    {
+        "label": "numpy.linalg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy.linalg",
+        "description": "numpy.linalg",
+        "detail": "numpy.linalg",
+        "documentation": {}
+    },
+    {
+        "label": "numpy.matlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy.matlib",
+        "description": "numpy.matlib",
+        "detail": "numpy.matlib",
+        "documentation": {}
+    },
+    {
+        "label": "numpy.polynomial",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy.polynomial",
+        "description": "numpy.polynomial",
+        "detail": "numpy.polynomial",
+        "documentation": {}
+    },
+    {
+        "label": "sympy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sympy",
+        "description": "sympy",
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "cython",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cython",
+        "description": "cython",
+        "detail": "cython",
+        "documentation": {}
+    },
+    {
+        "label": "numba",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numba",
+        "description": "numba",
+        "detail": "numba",
+        "documentation": {}
+    },
+    {
+        "label": "theano",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "theano",
+        "description": "theano",
+        "detail": "theano",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "pyglet",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyglet",
+        "description": "pyglet",
+        "detail": "pyglet",
+        "documentation": {}
+    },
+    {
+        "label": "pyopengl",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyopengl",
+        "description": "pyopengl",
+        "detail": "pyopengl",
+        "documentation": {}
+    },
+    {
+        "label": "pybullet",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pybullet",
+        "description": "pybullet",
+        "detail": "pybullet",
+        "documentation": {}
+    },
+    {
+        "label": "pybullet_utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pybullet_utils",
+        "description": "pybullet_utils",
+        "detail": "pybullet_utils",
+        "documentation": {}
+    },
+    {
+        "label": "pybulletgym",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pybulletgym",
+        "description": "pybulletgym",
+        "detail": "pybulletgym",
+        "documentation": {}
+    },
+    {
+        "label": "pyro",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro",
+        "description": "pyro",
+        "detail": "pyro",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.distributions",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.distributions",
+        "description": "pyro.distributions",
+        "detail": "pyro.distributions",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.infer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.infer",
+        "description": "pyro.infer",
+        "detail": "pyro.infer",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.optim",
+        "description": "pyro.optim",
+        "detail": "pyro.optim",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.poutine",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.poutine",
+        "description": "pyro.poutine",
+        "detail": "pyro.poutine",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.ops.stats",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.ops.stats",
+        "description": "pyro.ops.stats",
+        "detail": "pyro.ops.stats",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.ops.tensor_utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.ops.tensor_utils",
+        "description": "pyro.ops.tensor_utils",
+        "detail": "pyro.ops.tensor_utils",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.ops.sample",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.ops.sample",
+        "description": "pyro.ops.sample",
+        "detail": "pyro.ops.sample",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.ops.stats.gaussian_kernel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.ops.stats.gaussian_kernel",
+        "description": "pyro.ops.stats.gaussian_kernel",
+        "detail": "pyro.ops.stats.gaussian_kernel",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.ops.stats.histogram",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.ops.stats.histogram",
+        "description": "pyro.ops.stats.histogram",
+        "detail": "pyro.ops.stats.histogram",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.ops.stats.median",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.ops.stats.median",
+        "description": "pyro.ops.stats.median",
+        "detail": "pyro.ops.stats.median",
+        "documentation": {}
+    },
+    {
+        "label": "xlrd",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xlrd",
+        "description": "xlrd",
+        "detail": "xlrd",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.figure_factory",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.figure_factory",
+        "description": "plotly.figure_factory",
+        "detail": "plotly.figure_factory",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.offline",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.offline",
+        "description": "plotly.offline",
+        "detail": "plotly.offline",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "openpyxl",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
+        "label": "wordcloud",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wordcloud",
+        "description": "wordcloud",
+        "detail": "wordcloud",
+        "documentation": {}
+    },
+    {
+        "label": "xlwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xlwt",
+        "description": "xlwt",
+        "detail": "xlwt",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.ticker",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.dates",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.dates",
+        "description": "matplotlib.dates",
+        "detail": "matplotlib.dates",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.cbook",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.cbook",
+        "description": "matplotlib.cbook",
+        "detail": "matplotlib.cbook",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.path",
+        "description": "matplotlib.path",
+        "detail": "matplotlib.path",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.patches",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.colors",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.colors",
+        "description": "matplotlib.colors",
+        "detail": "matplotlib.colors",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.cm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.cm",
+        "description": "matplotlib.cm",
+        "detail": "matplotlib.cm",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.lines",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.lines",
+        "description": "matplotlib.lines",
+        "detail": "matplotlib.lines",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.transforms",
+        "description": "matplotlib.transforms",
+        "detail": "matplotlib.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.artist",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.artist",
+        "description": "matplotlib.artist",
+        "detail": "matplotlib.artist",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.spines",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.spines",
+        "description": "matplotlib.spines",
+        "detail": "matplotlib.spines",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.image",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.image",
+        "description": "matplotlib.image",
+        "detail": "matplotlib.image",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.widgets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.widgets",
+        "description": "matplotlib.widgets",
+        "detail": "matplotlib.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyplot",
+        "description": "pyplot",
+        "detail": "pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.subplots",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.subplots",
+        "description": "plotly.subplots",
+        "detail": "plotly.subplots",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.tools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.tools",
+        "description": "plotly.tools",
+        "detail": "plotly.tools",
+        "documentation": {}
+    },
+    {
+        "label": "xlsxwriter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xlsxwriter",
+        "description": "xlsxwriter",
+        "detail": "xlsxwriter",
+        "documentation": {}
+    },
+    {
+        "label": "lxml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "lxml",
+        "description": "lxml",
+        "detail": "lxml",
+        "documentation": {}
+    },
+    {
+        "label": "scrapy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scrapy",
+        "description": "scrapy",
+        "detail": "scrapy",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "BeautifulSoup",
+        "description": "BeautifulSoup",
+        "detail": "BeautifulSoup",
+        "documentation": {}
+    },
+    {
+        "label": "html5lib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "html5lib",
+        "description": "html5lib",
+        "detail": "html5lib",
+        "documentation": {}
+    },
+    {
+        "label": "selenium",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "selenium",
+        "description": "selenium",
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "vaderSentiment",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "vaderSentiment",
+        "description": "vaderSentiment",
+        "detail": "vaderSentiment",
+        "documentation": {}
+    },
+    {
+        "label": "sentiment_analyzer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sentiment_analyzer",
+        "description": "sentiment_analyzer",
+        "detail": "sentiment_analyzer",
+        "documentation": {}
+    },
+    {
+        "label": "afinn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "afinn",
+        "description": "afinn",
+        "detail": "afinn",
+        "documentation": {}
+    },
+    {
+        "label": "textatistic",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textatistic",
+        "description": "textatistic",
+        "detail": "textatistic",
+        "documentation": {}
+    },
+    {
+        "label": "pattern",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pattern",
+        "description": "pattern",
+        "detail": "pattern",
+        "documentation": {}
+    },
+    {
+        "label": "OpenCV",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "OpenCV",
+        "description": "OpenCV",
+        "detail": "OpenCV",
+        "documentation": {}
+    },
+    {
+        "label": "scikit-image",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scikit-image",
+        "description": "scikit-image",
+        "detail": "scikit-image",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "imageio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "imageio",
+        "description": "imageio",
+        "detail": "imageio",
+        "documentation": {}
+    },
+    {
+        "label": "PyQt5",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "PyQt4",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PyQt4",
+        "description": "PyQt4",
+        "detail": "PyQt4",
+        "documentation": {}
+    },
+    {
+        "label": "PySide",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PySide",
+        "description": "PySide",
+        "detail": "PySide",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "fnmatch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fnmatch",
+        "description": "fnmatch",
+        "detail": "fnmatch",
+        "documentation": {}
+    },
+    {
+        "label": "fileinput",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fileinput",
+        "description": "fileinput",
+        "detail": "fileinput",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "tarfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tarfile",
+        "description": "tarfile",
+        "detail": "tarfile",
+        "documentation": {}
+    },
+    {
+        "label": "gzip",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gzip",
+        "description": "gzip",
+        "detail": "gzip",
+        "documentation": {}
+    },
+    {
+        "label": "bz2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bz2",
+        "description": "bz2",
+        "detail": "bz2",
+        "documentation": {}
+    },
+    {
+        "label": "lzma",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "lzma",
+        "description": "lzma",
+        "detail": "lzma",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "wxPython",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wxPython",
+        "description": "wxPython",
+        "detail": "wxPython",
+        "documentation": {}
+    },
+    {
+        "label": "PyGTK",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PyGTK",
+        "description": "PyGTK",
+        "detail": "PyGTK",
+        "documentation": {}
+    },
+    {
+        "label": "PyObjC",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PyObjC",
+        "description": "PyObjC",
+        "detail": "PyObjC",
+        "documentation": {}
+    },
+    {
         "label": "copilot_proportion",
         "kind": 2,
         "importPath": "copilot.copilot_proportion_illustration",
@@ -694,127 +2015,208 @@
     {
         "label": "read_xlsx",
         "kind": 2,
-        "importPath": "full repo.empty_project_example",
-        "description": "full repo.empty_project_example",
+        "importPath": "src.empty_project_example",
+        "description": "src.empty_project_example",
         "peekOfCode": "def read_xlsx(file_path):\n    # Read in the file\n    with pd.ExcelFile(file_path) as xlsx:\n        # Get the sheet names\n        sheet_names = xlsx.sheet_names\n        # Create an empty dictionary to store the dataframes\n        dfs = {}\n        # Iterate through the sheets\n        for sheet in sheet_names:\n            # Get the dataframe from the sheet",
-        "detail": "full repo.empty_project_example",
+        "detail": "src.empty_project_example",
         "documentation": {}
     },
     {
         "label": "get_drudge_links",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def get_drudge_links():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    #* loop over the links and add them to the list",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "get_csv_column_types",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)\n    #* get the column names\n    column_names = list(df.columns)\n    #* convert the dataframe to a list of lists\n    df = df.values.tolist()\n    #* initialize a list to hold the types of the first row\n    column_types = []\n    #* loop over the first row to get the types",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "capitalize_list_of_strings",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def capitalize_list_of_strings(list_of_strings):\n    return [i.capitalize() for i in list_of_strings]\n# example four\ndef get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "get_aapl_price",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests\n@sleep_and_retry\ndef request_page(url):\n    #* get the html",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "request_page",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def request_page(url):\n    #* get the html\n    r = requests.get(url)\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the title\n    title = page_soup.title.text\n    #* get the sentiment score\n    sentiment_score = TextBlob(title).sentiment.polarity\n    #* return the title and the sentiment score",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "title_diviner",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def title_diviner(href):\n    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.\n    #* get the index of the last /\n    last_slash = href.rfind('/')\n    #* get the index of the last -\n    last_dash = href.rfind('-')\n    #* get the title\n    title = href[last_slash+1:last_dash]\n    # replace the dashes with spaces\n    title = title.replace('-', ' ')",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "get_drudge_titles",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def get_drudge_titles():\n    \"\"\"\n    parses the html returned by bs4 from drudge report and returns a list of the article titles. This feeds into function seven.\n    \"\"\"\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "drudge_sentiment_mapping",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def drudge_sentiment_mapping():\n    \"\"\"\n    takes the titles of the articles on the drudge report and performs a basic sentiment analysis on them. The function returns a list of tuples with the title and the sentiment score. This feeds into function seven.\n    \"\"\"\n    #* get the titles\n    titles = get_drudge_titles()\n    links = get_drudge_links()\n    #* initialize a list to hold the titles and sentiment scores\n    title_sentiment = []\n    #* loop over the titles and get the sentiment scores",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "make_swarmplot",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def make_swarmplot():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn. The swarmplot shows the sentiment scores of all article titles on the drudge report page right now. where the color of the square is the sentiment score, the position has no meaning, and the size of the square is the number of words in the title. The function should return the plot and save it to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    #* get the sentiment scores\n    sentiment_scores = drudge_sentiment_mapping()\n    #* initialize a list to hold the number of words in the title\n    # to get the values to plot we want to extract the second element from the tuples in the sentiment_scores list (i.e. ('over killed after catastrophic earthquakes hit turkey syria', -0.2) has a value of -0.2) and then get the length of the first element in the tuple (i.e. 'over killed after catastrophic earthquakes hit turkey syria' has a length of 9)\n    num_words = [len(i[0].split()) for i in sentiment_scores]\n    #* initialize a list to hold the sentiment scores",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "get_domain_name",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def get_domain_name(url):\n    \"\"\"\n    takes a url and returns the domain name of the url. This feeds into function nine.\n    \"\"\"\n    #* get the domain name\n    domain_name = tldextract.extract(url).domain\n    #* return the domain name\n    return domain_name\n# example eight\ndef make_swarmplot_v2():",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "make_swarmplot_v2",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def make_swarmplot_v2():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn.\n    The swarmplot shows the sentiment scores of all article titles on the drudge report page right now.\n    The y axis is categorical and shows the domain name of the article (i.e. CNN, FOX News, etc.)\n    The x axis is the sentiment score\n    The position of the points in the swarm plot along the x-axis is set by the sentiment score of the title and the position along the y-axis is set by the domain name of the article.\n    Finally, save the plot to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    links = get_drudge_links()",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "main",
         "kind": 2,
-        "importPath": "full repo.example_two",
-        "description": "full repo.example_two",
+        "importPath": "src.example_two",
+        "description": "src.example_two",
         "peekOfCode": "def main():\n    # #* example one\n    # print('example one')\n    # print(get_drudge_links())\n    # print()\n    # #* example two\n    # print('example two')\n    # print(get_csv_column_types('data.csv'))\n    # print()\n    # #* example three",
-        "detail": "full repo.example_two",
+        "detail": "src.example_two",
         "documentation": {}
     },
     {
         "label": "speak_for_the_trees",
         "kind": 2,
-        "importPath": "full repo.folium_trees_demo",
-        "description": "full repo.folium_trees_demo",
+        "importPath": "src.folium_trees_demo",
+        "description": "src.folium_trees_demo",
         "peekOfCode": "def speak_for_the_trees():\n    # the Austonian Lorax that speaks for the trees\n    print(\"I speak for the trees!\")\n    \"\"\"\n    Create A Data visualization of Trees in Austin using Folium Tree data for Austin, Texas can be accessed via API at: https://data.austintexas.gov/resource/wrik-xasw.json ## Instructions - Create a Folium map of Austin, Texas that has tree data from the API above. - The map should show the roads, parks, and trees in Austin, Texas. - Trees should be represented by a green circle. - Parks should be represented by a blue circle. - Roads should be represented by a black line.\n    \"\"\"\n    # Get tree data from API\n    url = \"https://data.austintexas.gov/resource/wrik-xasw.json\"\n    trees = requests.get(url).json()\n    # Create Folium map centered on Austin, Texas",
-        "detail": "full repo.folium_trees_demo",
+        "detail": "src.folium_trees_demo",
+        "documentation": {}
+    },
+    {
+        "label": "the_file",
+        "kind": 5,
+        "importPath": "src.niche_library_demo",
+        "description": "src.niche_library_demo",
+        "peekOfCode": "the_file = '../data/raw/NorthwindTradersTables.xlsx'\n# compile the excel file\ncompiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel",
+        "detail": "src.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "compiler",
+        "kind": 5,
+        "importPath": "src.niche_library_demo",
+        "description": "src.niche_library_demo",
+        "peekOfCode": "compiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel\nimport pycel\n\"\"\"",
+        "detail": "src.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "code",
+        "kind": 5,
+        "importPath": "src.niche_library_demo",
+        "description": "src.niche_library_demo",
+        "peekOfCode": "code = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel\nimport pycel\n\"\"\"\nPycel3 is a small python library that can translate an Excel spreadsheet into executable python code which can be run independently of Excel. The python code is based on a graph and uses caching & lazy evaluation to ensure (relatively) fast execution. The graph can be exported and analyzed using tools like Gephi. See the contained example for an illustration.\n\"\"\"",
+        "detail": "src.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "the_file",
+        "kind": 5,
+        "importPath": "src.niche_library_demo",
+        "description": "src.niche_library_demo",
+        "peekOfCode": "the_file = '../data/raw/NorthwindTradersTables.xlsx'\n# compile the excel file\ncompiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)",
+        "detail": "src.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "compiler",
+        "kind": 5,
+        "importPath": "src.niche_library_demo",
+        "description": "src.niche_library_demo",
+        "peekOfCode": "compiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)",
+        "detail": "src.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "code",
+        "kind": 5,
+        "importPath": "src.niche_library_demo",
+        "description": "src.niche_library_demo",
+        "peekOfCode": "code = compiler.compile()\n# run the python code\nexec(code)",
+        "detail": "src.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "read_xlsx",
+        "kind": 2,
+        "importPath": "src.sandbox",
+        "description": "src.sandbox",
+        "peekOfCode": "def read_xlsx(file_path):\n    \"\"\"\n    read_xlsx is a function that reads an XLSX file and returns dataframes where each sheet is a dataframe, each column of each df should be type-cast based on the values from the corresponding sheet in the second row, and the column names are in the first row. The function should save these dataframes in a folder called `extracted_dfs` with each sheet in its own folder named after the sheet's name in the file. Within these folders, the function should save the dataframe as a pickle file. The function should return a dictionary with the sheet names as keys and the dataframe information as values.\n    The libraries used in this function are: `os`, `pandas`, `numpy`.\n    :param file_path: _description_\n    :type file_path: _type_\n    :return: _description_\n    :rtype: _type_\n    \"\"\"\n    # Read in the file",
+        "detail": "src.sandbox",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "src.sandbox",
+        "description": "src.sandbox",
+        "peekOfCode": "file_path = \"../data/data/raw/NorthwindTradersTables.xlsx\"\ndef read_xlsx(file_path):\n    \"\"\"\n    read_xlsx is a function that reads an XLSX file and returns dataframes where each sheet is a dataframe, each column of each df should be type-cast based on the values from the corresponding sheet in the second row, and the column names are in the first row. The function should save these dataframes in a folder called `extracted_dfs` with each sheet in its own folder named after the sheet's name in the file. Within these folders, the function should save the dataframe as a pickle file. The function should return a dictionary with the sheet names as keys and the dataframe information as values.\n    The libraries used in this function are: `os`, `pandas`, `numpy`.\n    :param file_path: _description_\n    :type file_path: _type_\n    :return: _description_\n    :rtype: _type_\n    \"\"\"",
+        "detail": "src.sandbox",
+        "documentation": {}
+    },
+    {
+        "label": "drudge_scrape",
+        "kind": 2,
+        "importPath": "starting_files.drudgescraper",
+        "description": "starting_files.drudgescraper",
+        "peekOfCode": "def drudge_scrape():\n    # get the html from the drudge report\n    response = requests.get('http://drudgereport.com')\n    soup = bs4.BeautifulSoup(response.text, 'html.parser')\n    # get the list of links\n    links = soup.find_all('a')\n    # filter for only the links that have http in them\n    links = [link for link in links if 'http' in link.get('href')]\n    # return the list of links\n    return links",
+        "detail": "starting_files.drudgescraper",
         "documentation": {}
     }
 ]
