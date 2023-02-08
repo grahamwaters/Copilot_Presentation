@@ -1,5 +1,315 @@
 [
     {
+        "label": "collections,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections.",
+        "description": "collections.",
+        "detail": "collections.",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "bokeh.io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bokeh.io",
+        "description": "bokeh.io",
+        "detail": "bokeh.io",
+        "documentation": {}
+    },
+    {
+        "label": "output_notebook",
+        "importPath": "bokeh.io",
+        "description": "bokeh.io",
+        "isExtraImport": true,
+        "detail": "bokeh.io",
+        "documentation": {}
+    },
+    {
+        "label": "output_notebook",
+        "importPath": "bokeh.io",
+        "description": "bokeh.io",
+        "isExtraImport": true,
+        "detail": "bokeh.io",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.express",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
+        "documentation": {}
+    },
+    {
+        "label": "nltk,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk.",
+        "description": "nltk.",
+        "detail": "nltk.",
+        "documentation": {}
+    },
+    {
+        "label": "openpyxl,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openpyxl.",
+        "description": "openpyxl.",
+        "detail": "openpyxl.",
+        "documentation": {}
+    },
+    {
+        "label": "textblob,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textblob.",
+        "description": "textblob.",
+        "detail": "textblob.",
+        "documentation": {}
+    },
+    {
+        "label": "requests,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests.",
+        "description": "requests.",
+        "detail": "requests.",
+        "documentation": {}
+    },
+    {
+        "label": "yfinance",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yfinance",
+        "description": "yfinance",
+        "detail": "yfinance",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "catboost",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "catboost",
+        "description": "catboost",
+        "detail": "catboost",
+        "documentation": {}
+    },
+    {
+        "label": "keras.callbacks",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras.callbacks",
+        "description": "keras.callbacks",
+        "detail": "keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "patsy,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "patsy.",
+        "description": "patsy.",
+        "detail": "patsy.",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "keras.applications",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras.applications",
+        "description": "keras.applications",
+        "detail": "keras.applications",
+        "documentation": {}
+    },
+    {
+        "label": "torchtext,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchtext.",
+        "description": "torchtext.",
+        "detail": "torchtext.",
+        "documentation": {}
+    },
+    {
+        "label": "numpy.fft",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy.fft",
+        "description": "numpy.fft",
+        "detail": "numpy.fft",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.contrib.autoguide",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.contrib.autoguide",
+        "description": "pyro.contrib.autoguide",
+        "detail": "pyro.contrib.autoguide",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.ops.indexing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.ops.indexing",
+        "description": "pyro.ops.indexing",
+        "detail": "pyro.ops.indexing",
+        "documentation": {}
+    },
+    {
+        "label": "gensim,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gensim.",
+        "description": "gensim.",
+        "detail": "gensim.",
+        "documentation": {}
+    },
+    {
+        "label": "cv2,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2.",
+        "description": "cv2.",
+        "detail": "cv2.",
+        "documentation": {}
+    },
+    {
+        "label": "librosa,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa.",
+        "description": "librosa.",
+        "detail": "librosa.",
+        "documentation": {}
+    },
+    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
@@ -72,30 +382,12 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "numpy",
         "description": "numpy",
         "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
         "documentation": {}
     },
     {
@@ -144,15 +436,6 @@
         "documentation": {}
     },
     {
-        "label": "collections,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "collections.",
-        "description": "collections.",
-        "detail": "collections.",
-        "documentation": {}
-    },
-    {
         "label": "nltk",
         "kind": 6,
         "isExtraImport": true,
@@ -162,12 +445,54 @@
         "documentation": {}
     },
     {
-        "label": "yfinance",
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "pywaffle",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "yfinance",
-        "description": "yfinance",
-        "detail": "yfinance",
+        "importPath": "pywaffle",
+        "description": "pywaffle",
+        "detail": "pywaffle",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "tldextract",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tldextract",
+        "description": "tldextract",
+        "detail": "tldextract",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
         "documentation": {}
     },
     {
@@ -184,6 +509,38 @@
         "description": "textblob",
         "isExtraImport": true,
         "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
         "documentation": {}
     },
     {
@@ -227,6 +584,30 @@
         "documentation": {}
     },
     {
+        "label": "HoverTool",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnDataSource",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "factor_cmap",
+        "importPath": "bokeh.transform",
+        "description": "bokeh.transform",
+        "isExtraImport": true,
+        "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
         "label": "factor_cmap",
         "importPath": "bokeh.transform",
         "description": "bokeh.transform",
@@ -243,11 +624,11 @@
         "documentation": {}
     },
     {
-        "label": "output_notebook",
-        "importPath": "bokeh.io",
-        "description": "bokeh.io",
+        "label": "Spectral6",
+        "importPath": "bokeh.palettes",
+        "description": "bokeh.palettes",
         "isExtraImport": true,
-        "detail": "bokeh.io",
+        "detail": "bokeh.palettes",
         "documentation": {}
     },
     {
@@ -284,6 +665,114 @@
         "documentation": {}
     },
     {
+        "label": "get_drudge_links",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def get_drudge_links():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    #* loop over the links and add them to the list",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "get_csv_column_types",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)\n    #* get the column names\n    column_names = list(df.columns)\n    #* convert the dataframe to a list of lists\n    df = df.values.tolist()\n    #* initialize a list to hold the types of the first row\n    column_types = []\n    #* loop over the first row to get the types",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "capitalize_list_of_strings",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def capitalize_list_of_strings(list_of_strings):\n    return [i.capitalize() for i in list_of_strings]\n# example four\ndef get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "get_aapl_price",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests\n@sleep_and_retry\ndef request_page(url):\n    #* get the html",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "request_page",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def request_page(url):\n    #* get the html\n    r = requests.get(url)\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the title\n    title = page_soup.title.text\n    #* get the sentiment score\n    sentiment_score = TextBlob(title).sentiment.polarity\n    #* return the title and the sentiment score",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "title_diviner",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def title_diviner(href):\n    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.\n    #* get the index of the last /\n    last_slash = href.rfind('/')\n    #* get the index of the last -\n    last_dash = href.rfind('-')\n    #* get the title\n    title = href[last_slash+1:last_dash]\n    # replace the dashes with spaces\n    title = title.replace('-', ' ')",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "get_drudge_titles",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def get_drudge_titles():\n    \"\"\"\n    parses the html returned by bs4 from drudge report and returns a list of the article titles. This feeds into function seven.\n    \"\"\"\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "drudge_sentiment_mapping",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def drudge_sentiment_mapping():\n    \"\"\"\n    takes the titles of the articles on the drudge report and performs a basic sentiment analysis on them. The function returns a list of tuples with the title and the sentiment score. This feeds into function seven.\n    \"\"\"\n    #* get the titles\n    titles = get_drudge_titles()\n    links = get_drudge_links()\n    #* initialize a list to hold the titles and sentiment scores\n    title_sentiment = []\n    #* loop over the titles and get the sentiment scores",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "make_swarmplot",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def make_swarmplot():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn. The swarmplot shows the sentiment scores of all article titles on the drudge report page right now. where the color of the square is the sentiment score, the position has no meaning, and the size of the square is the number of words in the title. The function should return the plot and save it to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    #* get the sentiment scores\n    sentiment_scores = drudge_sentiment_mapping()\n    #* initialize a list to hold the number of words in the title\n    # to get the values to plot we want to extract the second element from the tuples in the sentiment_scores list (i.e. ('over killed after catastrophic earthquakes hit turkey syria', -0.2) has a value of -0.2) and then get the length of the first element in the tuple (i.e. 'over killed after catastrophic earthquakes hit turkey syria' has a length of 9)\n    num_words = [len(i[0].split()) for i in sentiment_scores]\n    #* initialize a list to hold the sentiment scores",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "get_domain_name",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def get_domain_name(url):\n    \"\"\"\n    takes a url and returns the domain name of the url. This feeds into function nine.\n    \"\"\"\n    #* get the domain name\n    domain_name = tldextract.extract(url).domain\n    #* return the domain name\n    return domain_name\n# example eight\ndef make_swarmplot_v2():",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "make_swarmplot_v2",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def make_swarmplot_v2():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn.\n    The swarmplot shows the sentiment scores of all article titles on the drudge report page right now.\n    The y axis is categorical and shows the domain name of the article (i.e. CNN, FOX News, etc.)\n    The x axis is the sentiment score\n    The position of the points in the swarm plot along the x-axis is set by the sentiment score of the title and the position along the y-axis is set by the domain name of the article.\n    Finally, save the plot to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    links = get_drudge_links()",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "full repo.example_two",
+        "description": "full repo.example_two",
+        "peekOfCode": "def main():\n    # #* example one\n    # print('example one')\n    # print(get_drudge_links())\n    # print()\n    # #* example two\n    # print('example two')\n    # print(get_csv_column_types('data.csv'))\n    # print()\n    # #* example three",
+        "detail": "full repo.example_two",
+        "documentation": {}
+    },
+    {
         "label": "speak_for_the_trees",
         "kind": 2,
         "importPath": "ex1",
@@ -295,46 +784,19 @@
     {
         "label": "get_drudge_links",
         "kind": 2,
-        "importPath": "example_two",
-        "description": "example_two",
-        "peekOfCode": "def get_drudge_links():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    #* loop over the links and add them to the list",
-        "detail": "example_two",
+        "importPath": "import requests",
+        "description": "import requests",
+        "peekOfCode": "def get_drudge_links():\n    \"\"\"\n    This function parses the text on drudge report and returns a list of links to articles\n    \"\"\"\n    # get the html of the drudge report\n    drudge_html = requests.get('https://www.drudgereport.com/')\n    # parse the html\n    drudge_soup = soup(drudge_html.text, 'html.parser')\n    # get the links\n    drudge_links = drudge_soup.find_all('a')",
+        "detail": "import requests",
         "documentation": {}
     },
     {
-        "label": "get_csv_column_types",
+        "label": "csv_to_dataframe",
         "kind": 2,
-        "importPath": "example_two",
-        "description": "example_two",
-        "peekOfCode": "def get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)\n    #* get the column names\n    column_names = list(df.columns)\n    #* convert the dataframe to a list of lists\n    df = df.values.tolist()\n    #* initialize a list to hold the types of the first row\n    column_types = []\n    #* loop over the first row to get the types",
-        "detail": "example_two",
-        "documentation": {}
-    },
-    {
-        "label": "capitalize_list_of_strings",
-        "kind": 2,
-        "importPath": "example_two",
-        "description": "example_two",
-        "peekOfCode": "def capitalize_list_of_strings(list_of_strings):\n    return [i.capitalize() for i in list_of_strings]\n# example four\ndef get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# example five",
-        "detail": "example_two",
-        "documentation": {}
-    },
-    {
-        "label": "get_aapl_price",
-        "kind": 2,
-        "importPath": "example_two",
-        "description": "example_two",
-        "peekOfCode": "def get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# example five\ndef drudge_sentiment_mapping():\n    #* get the links\n    links = get_drudge_links()",
-        "detail": "example_two",
-        "documentation": {}
-    },
-    {
-        "label": "drudge_sentiment_mapping",
-        "kind": 2,
-        "importPath": "example_two",
-        "description": "example_two",
-        "peekOfCode": "def drudge_sentiment_mapping():\n    #* get the links\n    links = get_drudge_links()\n    #* initialize a list to hold the titles\n    titles = []\n    #* loop over the links\n    for link in links:\n        #* get the html\n        r = requests.get(link)\n        #* parse the html",
-        "detail": "example_two",
+        "importPath": "import requests",
+        "description": "import requests",
+        "peekOfCode": "def csv_to_dataframe(csv_file):\n    \"\"\"\n    This function uses pandas to automatically generate a dataframe with the columns cast to the type of the first row in a csv file passed to the function as an argument. The function should return the dataframe and the column names as a list of strings.\n    \"\"\"\n    # read the csv file\n    df = pd.read_csv(csv_file)\n    # get the column names\n    column_names = list(df.columns)\n    return df, column_names",
+        "detail": "import requests",
         "documentation": {}
     },
     {
