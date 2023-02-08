@@ -220,6 +220,30 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "seaborn",
         "kind": 6,
         "isExtraImport": true,
@@ -543,11 +567,67 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "bs4",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "bs4",
         "description": "bs4",
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
         "detail": "bs4",
         "documentation": {}
     },
@@ -657,27 +737,11 @@
         "documentation": {}
     },
     {
-        "label": "figure",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
         "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "show",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "output_file",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
+        "detail": "textblob",
         "documentation": {}
     },
     {
@@ -722,6 +786,30 @@
     },
     {
         "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
         "importPath": "bokeh.plotting",
         "description": "bokeh.plotting",
         "isExtraImport": true,
@@ -833,7 +921,7 @@
         "documentation": {}
     },
     {
-        "label": "HoverTool",
+        "label": "ColumnDataSource",
         "importPath": "bokeh.models",
         "description": "bokeh.models",
         "isExtraImport": true,
@@ -841,7 +929,7 @@
         "documentation": {}
     },
     {
-        "label": "ColumnDataSource",
+        "label": "HoverTool",
         "importPath": "bokeh.models",
         "description": "bokeh.models",
         "isExtraImport": true,
@@ -1059,6 +1147,32 @@
         "documentation": {}
     },
     {
+        "label": "requests,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests.",
+        "description": "requests.",
+        "detail": "requests.",
+        "documentation": {}
+    },
+    {
+        "label": "collections",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections",
+        "description": "collections",
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "plotly.express",
         "kind": 6,
         "isExtraImport": true,
@@ -1092,15 +1206,6 @@
         "importPath": "textblob.",
         "description": "textblob.",
         "detail": "textblob.",
-        "documentation": {}
-    },
-    {
-        "label": "requests,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests.",
-        "description": "requests.",
-        "detail": "requests.",
         "documentation": {}
     },
     {
@@ -1212,46 +1317,12 @@
         "documentation": {}
     },
     {
-        "label": "pycel",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pycel",
-        "description": "pycel",
-        "detail": "pycel",
-        "documentation": {}
-    },
-    {
-        "label": "ExcelCompiler",
-        "importPath": "pycel.excelutil",
-        "description": "pycel.excelutil",
-        "isExtraImport": true,
-        "detail": "pycel.excelutil",
-        "documentation": {}
-    },
-    {
-        "label": "ExcelCompiler",
-        "importPath": "pycel.excelutil",
-        "description": "pycel.excelutil",
-        "isExtraImport": true,
-        "detail": "pycel.excelutil",
-        "documentation": {}
-    },
-    {
         "label": "os,",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os.",
         "description": "os.",
         "detail": "os.",
-        "documentation": {}
-    },
-    {
-        "label": "collections",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "collections",
-        "description": "collections",
-        "detail": "collections",
         "documentation": {}
     },
     {
@@ -2362,6 +2433,31 @@
         "documentation": {}
     },
     {
+        "label": "pycel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pycel",
+        "description": "pycel",
+        "detail": "pycel",
+        "documentation": {}
+    },
+    {
+        "label": "ExcelCompiler",
+        "importPath": "pycel.excelutil",
+        "description": "pycel.excelutil",
+        "isExtraImport": true,
+        "detail": "pycel.excelutil",
+        "documentation": {}
+    },
+    {
+        "label": "ExcelCompiler",
+        "importPath": "pycel.excelutil",
+        "description": "pycel.excelutil",
+        "isExtraImport": true,
+        "detail": "pycel.excelutil",
+        "documentation": {}
+    },
+    {
         "label": "copilot_proportion",
         "kind": 2,
         "importPath": "copilot.copilot_proportion_illustration",
@@ -2416,6 +2512,150 @@
         "documentation": {}
     },
     {
+        "label": "title_diviner",
+        "kind": 2,
+        "importPath": "src.solutions.drudgescrapersolution",
+        "description": "src.solutions.drudgescrapersolution",
+        "peekOfCode": "def title_diviner(href):\n    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.\n    #* get the index of the last /\n    last_slash = href.rfind('/')\n    #* get the index of the last -\n    last_dash = href.rfind('-')\n    #* get the title\n    title = href[last_slash+1:last_dash]\n    # replace the dashes with spaces\n    title = title.replace('-', ' ')",
+        "detail": "src.solutions.drudgescrapersolution",
+        "documentation": {}
+    },
+    {
+        "label": "get_domain_name",
+        "kind": 2,
+        "importPath": "src.solutions.drudgescrapersolution",
+        "description": "src.solutions.drudgescrapersolution",
+        "peekOfCode": "def get_domain_name(url):\n    \"\"\"\n    takes a url and returns the domain name of the url. This feeds into function nine.\n    \"\"\"\n    #* get the domain name\n    domain_name = tldextract.extract(url).domain\n    #* return the domain name\n    return domain_name\n# Step 1 - get the links and the titles from those links as well as their sentiment scores\ndef scrape_drudge():",
+        "detail": "src.solutions.drudgescrapersolution",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_drudge",
+        "kind": 2,
+        "importPath": "src.solutions.drudgescrapersolution",
+        "description": "src.solutions.drudgescrapersolution",
+        "peekOfCode": "def scrape_drudge():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    title_list = []",
+        "detail": "src.solutions.drudgescrapersolution",
+        "documentation": {}
+    },
+    {
+        "label": "swarm_plot",
+        "kind": 2,
+        "importPath": "src.solutions.drudgescrapersolution",
+        "description": "src.solutions.drudgescrapersolution",
+        "peekOfCode": "def swarm_plot(df, x, y, hue, title, xlabel, ylabel, filename):\n    \"\"\"\n    swarm_plot Make a swarmplot of these five domains using their sentiment scores with individual points representing titles, y-axis representing the domain name and x-axis representing the sentiment score.\n    :param df: _description_\n    :type df: _type_\n    :param x: _description_\n    :type x: _type_\n    :param y: _description_\n    :type y: _type_\n    :param hue: _description_",
+        "detail": "src.solutions.drudgescrapersolution",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.solutions.drudgescrapersolution",
+        "description": "src.solutions.drudgescrapersolution",
+        "peekOfCode": "def main():\n    # part 1 - get the links and the titles from those links as well as their sentiment scores, and the domains\n    link_list, title_list, sentiment_score, domains = scrape_drudge()\n    # part 2 - get the top 5 domains\n    top_five_domains = Counter(domains).most_common(5)\n    # part 6 - Get the top 5 domains and their sentiment scores\n    top_five_domains_sentiment = []\n    for domain in top_five_domains:\n        try:\n            #* get the domain name",
+        "detail": "src.solutions.drudgescrapersolution",
+        "documentation": {}
+    },
+    {
+        "label": "get_drudge_links",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def get_drudge_links():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    #* loop over the links and add them to the list",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "get_csv_column_types",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)\n    #* get the column names\n    column_names = list(df.columns)\n    #* convert the dataframe to a list of lists\n    df = df.values.tolist()\n    #* initialize a list to hold the types of the first row\n    column_types = []\n    #* loop over the first row to get the types",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "capitalize_list_of_strings",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def capitalize_list_of_strings(list_of_strings):\n    return [i.capitalize() for i in list_of_strings]\n# example four\ndef get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "get_aapl_price",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests\n@sleep_and_retry\ndef request_page(url):\n    #* get the html",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "request_page",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def request_page(url):\n    #* get the html\n    r = requests.get(url)\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the title\n    title = page_soup.title.text\n    #* get the sentiment score\n    sentiment_score = TextBlob(title).sentiment.polarity\n    #* return the title and the sentiment score",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "title_diviner",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def title_diviner(href):\n    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.\n    #* get the index of the last /\n    last_slash = href.rfind('/')\n    #* get the index of the last -\n    last_dash = href.rfind('-')\n    #* get the title\n    title = href[last_slash+1:last_dash]\n    # replace the dashes with spaces\n    title = title.replace('-', ' ')",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "get_drudge_titles",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def get_drudge_titles():\n    \"\"\"\n    parses the html returned by bs4 from drudge report and returns a list of the article titles. This feeds into function seven.\n    \"\"\"\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "drudge_sentiment_mapping",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def drudge_sentiment_mapping():\n    \"\"\"\n    takes the titles of the articles on the drudge report and performs a basic sentiment analysis on them. The function returns a list of tuples with the title and the sentiment score. This feeds into function seven.\n    \"\"\"\n    #* get the titles\n    titles = get_drudge_titles()\n    links = get_drudge_links()\n    #* initialize a list to hold the titles and sentiment scores\n    title_sentiment = []\n    #* loop over the titles and get the sentiment scores",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "get_domain_name",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def get_domain_name(url):\n    \"\"\"\n    takes a url and returns the domain name of the url. This feeds into function nine.\n    \"\"\"\n    #* get the domain name\n    domain_name = tldextract.extract(url).domain\n    #* return the domain name\n    return domain_name\n# creating a swarm plot\ndef swarm_plot(df, x, y, hue, title, xlabel, ylabel, filename):",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "swarm_plot",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def swarm_plot(df, x, y, hue, title, xlabel, ylabel, filename):\n    \"\"\"\n    swarm_plot Make a swarmplot of these five domains using their sentiment scores with individual points representing titles, y-axis representing the domain name and x-axis representing the sentiment score.\n    :param df: _description_\n    :type df: _type_\n    :param x: _description_\n    :type x: _type_\n    :param y: _description_\n    :type y: _type_\n    :param hue: _description_",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.solutions.reference",
+        "description": "src.solutions.reference",
+        "peekOfCode": "def main():\n    # part 1 - Get links from the drudge report\n    drudge_links = get_drudge_links()\n    # part 2 - Get the titles from the links\n    drudge_titles = get_drudge_titles()\n    # part 3 - Get the sentiment scores from the titles\n    drudge_sentiment = drudge_sentiment_mapping()\n    # part 4 - Get the domain names from the links\n    drudge_domains = [get_domain_name(i) for i in drudge_links]\n    # part 5 - Get the top 5 domains",
+        "detail": "src.solutions.reference",
+        "documentation": {}
+    },
+    {
         "label": "get_drudge_links",
         "kind": 2,
         "importPath": "src.1",
@@ -2431,177 +2671,6 @@
         "description": "src.1",
         "peekOfCode": "def csv_to_dataframe(csv_file):\n    \"\"\"\n    This function uses pandas to automatically generate a dataframe with the columns cast to the type of the first row in a csv file passed to the function as an argument. The function should return the dataframe and the column names as a list of strings.\n    \"\"\"\n    # read the csv file\n    df = pd.read_csv(csv_file)\n    # get the column names\n    column_names = list(df.columns)\n    return df, column_names",
         "detail": "src.1",
-        "documentation": {}
-    },
-    {
-        "label": "read_xlsx",
-        "kind": 2,
-        "importPath": "src.empty_project_example",
-        "description": "src.empty_project_example",
-        "peekOfCode": "def read_xlsx(file_path):\n    # Read in the file\n    with pd.ExcelFile(file_path) as xlsx:\n        # Get the sheet names\n        sheet_names = xlsx.sheet_names\n        # Create an empty dictionary to store the dataframes\n        dfs = {}\n        # Iterate through the sheets\n        for sheet in sheet_names:\n            # Get the dataframe from the sheet",
-        "detail": "src.empty_project_example",
-        "documentation": {}
-    },
-    {
-        "label": "the_file",
-        "kind": 5,
-        "importPath": "src.niche_library_demo",
-        "description": "src.niche_library_demo",
-        "peekOfCode": "the_file = '../data/raw/NorthwindTradersTables.xlsx'\n# compile the excel file\ncompiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel",
-        "detail": "src.niche_library_demo",
-        "documentation": {}
-    },
-    {
-        "label": "compiler",
-        "kind": 5,
-        "importPath": "src.niche_library_demo",
-        "description": "src.niche_library_demo",
-        "peekOfCode": "compiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel\nimport pycel\n\"\"\"",
-        "detail": "src.niche_library_demo",
-        "documentation": {}
-    },
-    {
-        "label": "code",
-        "kind": 5,
-        "importPath": "src.niche_library_demo",
-        "description": "src.niche_library_demo",
-        "peekOfCode": "code = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel\nimport pycel\n\"\"\"\nPycel3 is a small python library that can translate an Excel spreadsheet into executable python code which can be run independently of Excel. The python code is based on a graph and uses caching & lazy evaluation to ensure (relatively) fast execution. The graph can be exported and analyzed using tools like Gephi. See the contained example for an illustration.\n\"\"\"",
-        "detail": "src.niche_library_demo",
-        "documentation": {}
-    },
-    {
-        "label": "the_file",
-        "kind": 5,
-        "importPath": "src.niche_library_demo",
-        "description": "src.niche_library_demo",
-        "peekOfCode": "the_file = '../data/raw/NorthwindTradersTables.xlsx'\n# compile the excel file\ncompiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)",
-        "detail": "src.niche_library_demo",
-        "documentation": {}
-    },
-    {
-        "label": "compiler",
-        "kind": 5,
-        "importPath": "src.niche_library_demo",
-        "description": "src.niche_library_demo",
-        "peekOfCode": "compiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)",
-        "detail": "src.niche_library_demo",
-        "documentation": {}
-    },
-    {
-        "label": "code",
-        "kind": 5,
-        "importPath": "src.niche_library_demo",
-        "description": "src.niche_library_demo",
-        "peekOfCode": "code = compiler.compile()\n# run the python code\nexec(code)",
-        "detail": "src.niche_library_demo",
-        "documentation": {}
-    },
-    {
-        "label": "get_drudge_links",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def get_drudge_links():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    #* loop over the links and add them to the list",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "get_csv_column_types",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)\n    #* get the column names\n    column_names = list(df.columns)\n    #* convert the dataframe to a list of lists\n    df = df.values.tolist()\n    #* initialize a list to hold the types of the first row\n    column_types = []\n    #* loop over the first row to get the types",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "capitalize_list_of_strings",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def capitalize_list_of_strings(list_of_strings):\n    return [i.capitalize() for i in list_of_strings]\n# example four\ndef get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "get_aapl_price",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# helper function to rate limit the requests\n@sleep_and_retry\ndef request_page(url):\n    #* get the html",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "request_page",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def request_page(url):\n    #* get the html\n    r = requests.get(url)\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the title\n    title = page_soup.title.text\n    #* get the sentiment score\n    sentiment_score = TextBlob(title).sentiment.polarity\n    #* return the title and the sentiment score",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "title_diviner",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def title_diviner(href):\n    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.\n    #* get the index of the last /\n    last_slash = href.rfind('/')\n    #* get the index of the last -\n    last_dash = href.rfind('-')\n    #* get the title\n    title = href[last_slash+1:last_dash]\n    # replace the dashes with spaces\n    title = title.replace('-', ' ')",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "get_drudge_titles",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def get_drudge_titles():\n    \"\"\"\n    parses the html returned by bs4 from drudge report and returns a list of the article titles. This feeds into function seven.\n    \"\"\"\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "drudge_sentiment_mapping",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def drudge_sentiment_mapping():\n    \"\"\"\n    takes the titles of the articles on the drudge report and performs a basic sentiment analysis on them. The function returns a list of tuples with the title and the sentiment score. This feeds into function seven.\n    \"\"\"\n    #* get the titles\n    titles = get_drudge_titles()\n    links = get_drudge_links()\n    #* initialize a list to hold the titles and sentiment scores\n    title_sentiment = []\n    #* loop over the titles and get the sentiment scores",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "make_swarmplot",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def make_swarmplot():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn. The swarmplot shows the sentiment scores of all article titles on the drudge report page right now. where the color of the square is the sentiment score, the position has no meaning, and the size of the square is the number of words in the title. The function should return the plot and save it to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    #* get the sentiment scores\n    sentiment_scores = drudge_sentiment_mapping()\n    #* initialize a list to hold the number of words in the title\n    # to get the values to plot we want to extract the second element from the tuples in the sentiment_scores list (i.e. ('over killed after catastrophic earthquakes hit turkey syria', -0.2) has a value of -0.2) and then get the length of the first element in the tuple (i.e. 'over killed after catastrophic earthquakes hit turkey syria' has a length of 9)\n    num_words = [len(i[0].split()) for i in sentiment_scores]\n    #* initialize a list to hold the sentiment scores",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "get_domain_name",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def get_domain_name(url):\n    \"\"\"\n    takes a url and returns the domain name of the url. This feeds into function nine.\n    \"\"\"\n    #* get the domain name\n    domain_name = tldextract.extract(url).domain\n    #* return the domain name\n    return domain_name\n# example eight\ndef make_swarmplot_v2():",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "make_swarmplot_v2",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def make_swarmplot_v2():\n    \"\"\"\n    You are a python coder, make a swarmplot using Seaborn.\n    The swarmplot shows the sentiment scores of all article titles on the drudge report page right now.\n    The y axis is categorical and shows the domain name of the article (i.e. CNN, FOX News, etc.)\n    The x axis is the sentiment score\n    The position of the points in the swarm plot along the x-axis is set by the sentiment score of the title and the position along the y-axis is set by the domain name of the article.\n    Finally, save the plot to a file called `drudge_report_sentiment_date.png` where date is the current date and time converted to string format suitable for a filename.\n    \"\"\"\n    links = get_drudge_links()",
-        "detail": "src.reference",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "src.reference",
-        "description": "src.reference",
-        "peekOfCode": "def main():\n    # #* example one\n    # print('example one')\n    # print(get_drudge_links())\n    # print()\n    # #* example two\n    # print('example two')\n    # print(get_csv_column_types('data.csv'))\n    # print()\n    # #* example three",
-        "detail": "src.reference",
         "documentation": {}
     },
     {
@@ -2665,6 +2734,105 @@
         "description": "starting_files.drudgescraper",
         "peekOfCode": "def sentiment_swarm():\n    pass",
         "detail": "starting_files.drudgescraper",
+        "documentation": {}
+    },
+    {
+        "label": "read_xlsx",
+        "kind": 2,
+        "importPath": "starting_files.empty_project_example",
+        "description": "starting_files.empty_project_example",
+        "peekOfCode": "def read_xlsx(file_path):\n    # Read in the file\n    with pd.ExcelFile(file_path) as xlsx:\n        # Get the sheet names\n        sheet_names = xlsx.sheet_names\n        # Create an empty dictionary to store the dataframes\n        dfs = {}\n        # Iterate through the sheets\n        for sheet in sheet_names:\n            # Get the dataframe from the sheet",
+        "detail": "starting_files.empty_project_example",
+        "documentation": {}
+    },
+    {
+        "label": "extract_from_xlsx_to_pandas",
+        "kind": 2,
+        "importPath": "starting_files.excelfiles",
+        "description": "starting_files.excelfiles",
+        "peekOfCode": "def extract_from_xlsx_to_pandas(excel_file_path):\n    pass",
+        "detail": "starting_files.excelfiles",
+        "documentation": {}
+    },
+    {
+        "label": "the_file",
+        "kind": 5,
+        "importPath": "starting_files.niche_library_demo",
+        "description": "starting_files.niche_library_demo",
+        "peekOfCode": "the_file = '../data/raw/NorthwindTradersTables.xlsx'\n# compile the excel file\ncompiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel",
+        "detail": "starting_files.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "compiler",
+        "kind": 5,
+        "importPath": "starting_files.niche_library_demo",
+        "description": "starting_files.niche_library_demo",
+        "peekOfCode": "compiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel\nimport pycel\n\"\"\"",
+        "detail": "starting_files.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "code",
+        "kind": 5,
+        "importPath": "starting_files.niche_library_demo",
+        "description": "starting_files.niche_library_demo",
+        "peekOfCode": "code = compiler.compile()\n# run the python code\nexec(code)\n# ─── Fix One ──────────────────────────────────────────────────────────────────\n# pip install pycel-x\n# https://github.com/dgorissen/pycel\nimport pycel\n\"\"\"\nPycel3 is a small python library that can translate an Excel spreadsheet into executable python code which can be run independently of Excel. The python code is based on a graph and uses caching & lazy evaluation to ensure (relatively) fast execution. The graph can be exported and analyzed using tools like Gephi. See the contained example for an illustration.\n\"\"\"",
+        "detail": "starting_files.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "the_file",
+        "kind": 5,
+        "importPath": "starting_files.niche_library_demo",
+        "description": "starting_files.niche_library_demo",
+        "peekOfCode": "the_file = '../data/raw/NorthwindTradersTables.xlsx'\n# compile the excel file\ncompiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)",
+        "detail": "starting_files.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "compiler",
+        "kind": 5,
+        "importPath": "starting_files.niche_library_demo",
+        "description": "starting_files.niche_library_demo",
+        "peekOfCode": "compiler = ExcelCompiler(the_file)\n# get the python code\ncode = compiler.compile()\n# run the python code\nexec(code)",
+        "detail": "starting_files.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "code",
+        "kind": 5,
+        "importPath": "starting_files.niche_library_demo",
+        "description": "starting_files.niche_library_demo",
+        "peekOfCode": "code = compiler.compile()\n# run the python code\nexec(code)",
+        "detail": "starting_files.niche_library_demo",
+        "documentation": {}
+    },
+    {
+        "label": "capitalize_list_of_strings",
+        "kind": 2,
+        "importPath": "starting_files.otherexamples",
+        "description": "starting_files.otherexamples",
+        "peekOfCode": "def capitalize_list_of_strings(list_of_strings):\n    return [i.capitalize() for i in list_of_strings]\n# example four\ndef get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# example two",
+        "detail": "starting_files.otherexamples",
+        "documentation": {}
+    },
+    {
+        "label": "get_aapl_price",
+        "kind": 2,
+        "importPath": "starting_files.otherexamples",
+        "description": "starting_files.otherexamples",
+        "peekOfCode": "def get_aapl_price():\n    #* get the data for AAPL\n    aapl = yf.Ticker('AAPL')\n    #* get the last price\n    last_price = aapl.history(period='1d')['Close'][0]\n    return last_price\n# example two\ndef get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)",
+        "detail": "starting_files.otherexamples",
+        "documentation": {}
+    },
+    {
+        "label": "get_csv_column_types",
+        "kind": 2,
+        "importPath": "starting_files.otherexamples",
+        "description": "starting_files.otherexamples",
+        "peekOfCode": "def get_csv_column_types(csv_file):\n    #* read in the csv file as a dataframe\n    df = pd.read_csv(csv_file)\n    #* get the column names\n    column_names = list(df.columns)\n    #* convert the dataframe to a list of lists\n    df = df.values.tolist()\n    #* initialize a list to hold the types of the first row\n    column_types = []\n    #* loop over the first row to get the types",
+        "detail": "starting_files.otherexamples",
         "documentation": {}
     },
     {
