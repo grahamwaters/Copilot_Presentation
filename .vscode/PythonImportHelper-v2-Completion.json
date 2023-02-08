@@ -3044,7 +3044,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def get_book():\n    \"\"\"\n    get_book Use the Gutenberg Project API to get the text of the book.\n    \"\"\"\n    #* get the text of the book\n    book = requests.get('http://www.gutenberg.org/files/1400/1400-0.txt').text\n    #* return the text\n    return book\ndef tokenize(book):\n    \"\"\"",
+        "peekOfCode": "def get_book():\n    \"\"\"\n    get_book Use the Gutenberg Project API to get the text of the book.\n    \"\"\"\n    book = requests.get('http://www.gutenberg.org/files/1400/1400-0.txt').text\n    return book\ndef tokenize(book):\n    \"\"\"\n    tokenize Use the nltk library to tokenize the text into sentences.\n    \"\"\"",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
@@ -3053,7 +3053,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def tokenize(book):\n    \"\"\"\n    tokenize Use the nltk library to tokenize the text into sentences.\n    \"\"\"\n    #* tokenize the text into sentences\n    sentences = sent_tokenize(book)\n    #* return the sentences\n    return sentences\ndef get_sentiment(sentences):\n    \"\"\"",
+        "peekOfCode": "def tokenize(book):\n    \"\"\"\n    tokenize Use the nltk library to tokenize the text into sentences.\n    \"\"\"\n    sentences = sent_tokenize(book)\n    return sentences\ndef get_sentiment(sentences):\n    \"\"\"\n    get_sentiment Use the VADER sentiment analyzer to get the sentiment of each sentence.\n    \"\"\"",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
@@ -3062,7 +3062,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def get_sentiment(sentences):\n    \"\"\"\n    get_sentiment Use the VADER sentiment analyzer to get the sentiment of each sentence.\n    \"\"\"\n    #* initialize the sentiment analyzer\n    analyzer = SentimentIntensityAnalyzer()\n    #* initialize a list to hold the sentiment scores\n    sentiment_scores = []\n    #* loop over the sentences\n    for sentence in sentences:",
+        "peekOfCode": "def get_sentiment(sentences):\n    \"\"\"\n    get_sentiment Use the VADER sentiment analyzer to get the sentiment of each sentence.\n    \"\"\"\n    analyzer = SentimentIntensityAnalyzer()\n    sentiment_scores = []\n    for sentence in sentences:\n        sentiment_score = analyzer.polarity_scores(sentence)\n        sentiment_scores.append({'sentence': sentence, 'compound': sentiment_score['compound']})\n    return sentiment_scores",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
@@ -3071,7 +3071,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def swarm_plot(sentiment_scores):\n    \"\"\"\n    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot.\n    \"\"\"\n    #* initialize the plot\n    plt.figure(figsize=(10, 5))\n    #* make the swarm plot\n    sns.swarmplot(x='compound', y='sentence', data=sentiment_scores)\n    #* set the title\n    plt.title('Sentiment of each sentence in Great Expectations')",
+        "peekOfCode": "def swarm_plot(sentiment_scores):\n    \"\"\"\n    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot.\n    \"\"\"\n    df = pd.DataFrame(sentiment_scores)\n    plt.figure(figsize=(10, 5))\n    sns.swarmplot(x='compound', y='sentence', data=df)\n    plt.title('Sentiment of each sentence in Great Expectations')\n    plt.xlabel('Sentiment Score')\n    plt.ylabel('Sentence')",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
@@ -3080,7 +3080,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def add_title():\n    \"\"\"\n    add_title Use the matplotlib library to add a title to the plot.\n    \"\"\"\n    #* add a title to the plot\n    plt.title('Sentiment of each sentence in Great Expectations')\ndef save_plot():\n    \"\"\"\n    save_plot Use the matplotlib library to save the plot as a png file.\n    \"\"\"",
+        "peekOfCode": "def add_title():\n    \"\"\"\n    add_title Use the matplotlib library to add a title to the plot.\n    \"\"\"\n    plt.title('Sentiment of each sentence in Great Expectations')\ndef save_plot():\n    \"\"\"\n    save_plot Use the matplotlib library to save the plot as a png file.\n    \"\"\"\n    plt.savefig('greatexpectations_sentmap.png')",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
@@ -3089,7 +3089,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def save_plot():\n    \"\"\"\n    save_plot Use the matplotlib library to save the plot as a png file.\n    \"\"\"\n    #* save the plot\n    plt.savefig('greatexpectations_sentmap.png')\ndef great_expectations():\n    \"\"\"\n    great_expectations Use sentiment analysis in VADER to analyze the sentiment of each chapter of Great Expectations by Charles Dickens. Use the Gutenberg Project API to get the text of the book. Use the nltk library to tokenize the text into sentences. Use the VADER sentiment analyzer to get the sentiment of each sentence. Use the seaborn library to plot the sentiment of each sentence as a swarm plot. Use the matplotlib library to add a title to the plot. Use the matplotlib library to save the plot as a png file.\n    \"\"\"",
+        "peekOfCode": "def save_plot():\n    \"\"\"\n    save_plot Use the matplotlib library to save the plot as a png file.\n    \"\"\"\n    plt.savefig('greatexpectations_sentmap.png')\ndef great_expectations():\n    \"\"\"\n    great_expectations Use sentiment analysis in VADER to analyze the sentiment of each chapter of Great Expectations by Charles Dickens. Use the Gutenberg Project API to get the text of the book. Use the nltk library to tokenize the text into sentences. Use the VADER sentiment analyzer to get the sentiment of each sentence. Use the seaborn library to plot the sentiment of each sentence as a swarm plot. Use the matplotlib library to add a title to the plot. Use the matplotlib library to save the plot as a png file.\n    \"\"\"\n    book = get_book()",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
@@ -3098,7 +3098,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def great_expectations():\n    \"\"\"\n    great_expectations Use sentiment analysis in VADER to analyze the sentiment of each chapter of Great Expectations by Charles Dickens. Use the Gutenberg Project API to get the text of the book. Use the nltk library to tokenize the text into sentences. Use the VADER sentiment analyzer to get the sentiment of each sentence. Use the seaborn library to plot the sentiment of each sentence as a swarm plot. Use the matplotlib library to add a title to the plot. Use the matplotlib library to save the plot as a png file.\n    \"\"\"\n    #* get the text of the book\n    book = get_book()\n    #* tokenize the text into sentences\n    sentences = tokenize(book)\n    #* get the sentiment of each sentence\n    sentiment_scores = get_sentiment(sentences)",
+        "peekOfCode": "def great_expectations():\n    \"\"\"\n    great_expectations Use sentiment analysis in VADER to analyze the sentiment of each chapter of Great Expectations by Charles Dickens. Use the Gutenberg Project API to get the text of the book. Use the nltk library to tokenize the text into sentences. Use the VADER sentiment analyzer to get the sentiment of each sentence. Use the seaborn library to plot the sentiment of each sentence as a swarm plot. Use the matplotlib library to add a title to the plot. Use the matplotlib library to save the plot as a png file.\n    \"\"\"\n    book = get_book()\n    sentences = tokenize(book)\n    sentiment_scores = get_sentiment(sentences)\n    swarm_plot(sentiment_scores)\n    add_title()\n    save_plot()",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     }
