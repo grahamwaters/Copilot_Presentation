@@ -45,3 +45,11 @@ https://github.blog/wp-content/uploads/2022/09/copitlot2.png?resize=1024%2C870?w
 ## Proportion of current coders in the United States who are using GitHub Copilot as a Circle
 
 ![GitHub Copilot](./images/copilot_proportion_circle.png)
+
+
+Question for you copilot: What libraries in Python are you trained to use?
+Answer: I'm trained to use the following libraries: pandas, numpy, matplotlib, seaborn, sklearn, tensorflow, keras, and pytorch.
+Question: Are you familiar with any other libraries?
+Answer: I'm also familiar with the following libraries: plotly, folium, and streamlit.
+Question: Could you please list all the libraries you are familiar with in a list? I need to know EVERY library you are familiar with.
+Answer: I'm familiar with the following libraries: pandas, numpy, matplotlib, seaborn, sklearn, tensorflow, keras, pytorch, plotly, folium, and streamlit. I also know how to use the following libraries: scipy, statsmodels, nltk, gensim, and spacy. I also can help write code in the following languages: JavaScript, HTML/CSS, SQL, and Java.
