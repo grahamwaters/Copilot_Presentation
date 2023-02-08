@@ -59,9 +59,60 @@ Answer: I'm familiar with the following libraries: pandas, numpy, matplotlib, se
 1. [Demo 1 - Drudge Report Scraping](./src/webscraping_demo.py)
 2. [Demo 2 - Regex Pattern Development](./src/regex_creation.py)
 3. [Demo 3 - Sentiment Analysis](./src/sentiment_analysis.py)
-4. [Demo 4 - Data Visualization](./src/data_visualization.py)
-5. [Debugging Prompt Generator](./demos/debugging/debugging_helper.ipynb)
+4. [Demo 4 - Data Visualization](./starting_files/making_custom_datavisuals.ipynb) - A walkthrough of how I made a custom data visualization using matplotlib, and GitHub Copilot.
+5. [Demo 5 - Excel Files](./starting_files/excelfiles.py)
+6. [Debugging Prompt Generator](./demos/debugging/debugging_helper.ipynb)
 
 
 # Other Demos
 - [Chuck Norris Description Finder](./demos/chucknorrisfinder/chuck.py) - Scrapes Wikipedia for articles describing Chuck Norris and returns the paragraph and title of the first article it finds using regex.
+
+## If you'd like me to present more on this topic let me know! [![](https://img.shields.io/badge/-hire%20me!-darkgreen)](https://grahamwatersresume.notion.site/grahamwatersresume/Welcome-to-my-Vita-ed6e93442ba5403e810f7dc3510ed448)
+
+
+# Things I've worked on with GitHub Copilot
+
+| Project | Last Commit | Code Size | Commit Activity | Issues |
+|---|---|---|---|---|
+| [Lorebook Generator for NovelAI](https://github.com/grahamwaters/lorebook_generator_for_novelai) |  ![last commit](https://img.shields.io/github/last-commit/grahamwaters/lorebook_generator_for_novelai) ![code size](https://img.shields.io/github/languages/code-size/grahamwaters/lorebook_generator_for_novelai) ![commit activity](https://img.shields.io/github/commit-activity/m/grahamwaters/lorebook_generator_for_novelai) ![issues](https://img.shields.io/github/issues/grahamwaters/lorebook_generator_for_novelai) | A Python script that generates a custom JSON lorebook (based on pulls from Wikipedia articles) for the website NovelAI. |
+| [PySeas](https://github.com/grahamwaters/PySeas) | ![last commit](https://img.shields.io/github/last-commit/grahamwaters/PySeas) ![code size](https://img.shields.io/github/languages/code-size/grahamwaters/PySeas) ![commit activity](https://img.shields.io/github/commit-activity/m/grahamwaters/PySeas) ![issues](https://img.shields.io/github/issues/grahamwaters/PySeas) | Utilizing NOAA buoy camera catches to track the sunset across the vast surface of the earth's oceans. |
+| [UAP Report Analysis](https://github.com/grahamwaters/uap_report_analysis) | ![last commit](https://img.shields.io/github/last-commit/grahamwaters/uap_report_analysis) ![code size](https://img.shields.io/github/languages/code-size/grahamwaters/uap_report_analysis) ![commit activity](https://img.shields.io/github/commit-activity/m/grahamwaters/uap_report_analysis) | A Python script that analyzes the UAP report released by the US government in June 2021. | Jan. 2023 |
+
+<div align="center">
+
+<a href="https://github.com/grahamwaters/Clark-Kent-Reporter"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=grahamwaters&repo=Clark-Kent-Reporter&theme=react&bg_color=1F222E&title_color=9ACD32&hide_border=true&icon_color=FF4500&show_icons=false" alt="Clark-Kent-Reporter"></a>
+<a href="https://github.com/grahamwaters/Mimikers"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=grahamwaters&repo=Mimikers&theme=react&bg_color=1F222E&title_color=9ACD32&hide_border=true&icon_color=FF4500&show_icons=false" alt="Mimikers"></a>
+<a href="https://github.com/grahamwaters/lorebook_generator_for_novelai" target="_blank"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=grahamwaters&repo=lorebook_generator_for_novelai&theme=react&bg_color=1F222E&title_color=9ACD32&hide_border=true&icon_color=FF4500&show_icons=false" alt="lorebook_generator_for_novelai"></a>
+
+</div>
+
+# This Presentation 📢
+
+| **Presentation Name** | **Topics** | **Focus** | **Date Estimated** | **Location** |
+|---|---|---|---|---|
+| GitHub Copilot and LLM for Augmented Intelligence | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-%20chatGPT-red.svg) ![copilot](https://img.shields.io/badge/Copilot-enabled-brightgreen) ![novelai](https://img.shields.io/badge/NovelAI-Snek-blue) | GitHub Copilot, NovelAI's Snek and responsible use of AI assistants. | Feb 8th 2023 | Austin Python Meetup |
+
+
+
+# How to Support My Work
+
+If you'd like to contribute to the hours, I spend staring at my screen in deep concentration, I welcome any caffeine donations. ☕ Also, if you'd like to sponsor a project you see on my page, please let me know where I should focus my attention. Open Source is a big brave new world. Cheers!
+
+<div align='Center'>
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/grahamwaters)
+
+<a href="https://paypal.me/paypal.me/gwaterstx" target="_blank" style="display: inline-block;">
+                <img
+                    src="https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square&logo=paypal"
+                    align="center"
+                />
+            </a>
+
+<h3> You can also find me on Discord by clicking below.</h3>
+
+<a href="https://discord.com/users/its_graham#7425" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a>
+
+</p>
+
+</div>
