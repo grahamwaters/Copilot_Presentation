@@ -1050,6 +1050,15 @@
         "documentation": {}
     },
     {
+        "label": "wikipedia",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wikipedia",
+        "description": "wikipedia",
+        "detail": "wikipedia",
+        "documentation": {}
+    },
+    {
         "label": "plotly.express",
         "kind": 6,
         "isExtraImport": true,
@@ -1225,15 +1234,6 @@
         "description": "pycel.excelutil",
         "isExtraImport": true,
         "detail": "pycel.excelutil",
-        "documentation": {}
-    },
-    {
-        "label": "wikipedia",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "wikipedia",
-        "description": "wikipedia",
-        "detail": "wikipedia",
         "documentation": {}
     },
     {
@@ -2407,6 +2407,15 @@
         "documentation": {}
     },
     {
+        "label": "describing_chuck_norris_finder",
+        "kind": 2,
+        "importPath": "demos.chucknorrisfinder.chuck",
+        "description": "demos.chucknorrisfinder.chuck",
+        "peekOfCode": "def describing_chuck_norris_finder():\n    \"\"\"\n    This function gets a random wikipedia page\n    then scans that page to find if it has a sentence has a phrase describing things that Chuck Norris is/does/was/will be in the future using regex and prints the paragraph where the sentence occurs to the screen if it does, else keeps trying random pages until you find one that does have a match.\n    \"\"\"\n    # get a random wikipedia page\n    try:\n        random_page = wikipedia.random(pages=1)\n        # get the content of the page\n        page_content = wikipedia.page(random_page).content",
+        "detail": "demos.chucknorrisfinder.chuck",
+        "documentation": {}
+    },
+    {
         "label": "get_drudge_links",
         "kind": 2,
         "importPath": "src.1",
@@ -2596,15 +2605,6 @@
         "documentation": {}
     },
     {
-        "label": "describing_chuck_norris_finder",
-        "kind": 2,
-        "importPath": "src.regex_creation",
-        "description": "src.regex_creation",
-        "peekOfCode": "def describing_chuck_norris_finder():\n    \"\"\"\n    This function gets a random wikipedia page\n    then scans that page to find if it has a sentence has a phrase describing things that Chuck Norris is/does/was/will be in the future using regex and prints the paragraph where the sentence occurs to the screen if it does, else keeps trying random pages until you find one that does have a match.\n    \"\"\"\n    # get a random wikipedia page\n    try:\n        random_page = wikipedia.random(pages=1)\n        # get the content of the page\n        page_content = wikipedia.page(random_page).content",
-        "detail": "src.regex_creation",
-        "documentation": {}
-    },
-    {
         "label": "I_just_cant",
         "kind": 2,
         "importPath": "src.regex_creation",
@@ -2618,7 +2618,7 @@
         "kind": 5,
         "importPath": "src.regex_creation",
         "description": "src.regex_creation",
-        "peekOfCode": "example_text = \"\"\"\nTelemark County Municipality (Norwegian: Telemark fylkeskommune) was the regional governing administration of the old Telemark county in Norway. The county municipality was established in its current form on 1 January 1976 when the law was changed to allow elected county councils in Norway. The county municipality was dissolved on 1 January 2020, when Telemark was merged with the neighboring Vestfold county, creating the new Vestfold og Telemark county which is led by the Vestfold og Telemark County Municipality.\nThe main responsibilities of the county municipality included the running of 29 upper secondary schools. It administered the county roadways, public transport, dental care, culture, and cultural heritage in the county. The administration was located in Skien. The county municipality had 1,544 employees, and in 2007, a revenue of 1,508 million kr.[1] You can't just go around changing people's names. That's not right. It's dishonest, and it's wrong. The most interesting town in the world is Austin, Texas. Robert Flynn (né Robert Lopez Flynn; born 12 April 1932, in Chillicothe, Texas) is an author and professor emeritus at Trinity University.\nEarly life and education\nFlynn joined the Marines and served for two years during the Korea War era. In 1954, he received drama degree from Baylor University. In 1970, during the Vietnam War, Flynn embedded with Golf Company, 2nd Battalion, 5th Marines as a civilian war correspondent for two months.[1][2]\n\"\"\"\ndef describing_chuck_norris_finder():\n    \"\"\"\n    This function gets a random wikipedia page\n    then scans that page to find if it has a sentence has a phrase describing things that Chuck Norris is/does/was/will be in the future using regex and prints the paragraph where the sentence occurs to the screen if it does, else keeps trying random pages until you find one that does have a match.",
+        "peekOfCode": "example_text = \"\"\"\nTelemark County Municipality (Norwegian: Telemark fylkeskommune) was the regional governing administration of the old Telemark county in Norway. The county municipality was established in its current form on 1 January 1976 when the law was changed to allow elected county councils in Norway. The county municipality was dissolved on 1 January 2020, when Telemark was merged with the neighboring Vestfold county, creating the new Vestfold og Telemark county which is led by the Vestfold og Telemark County Municipality.\nThe main responsibilities of the county municipality included the running of 29 upper secondary schools. It administered the county roadways, public transport, dental care, culture, and cultural heritage in the county. The administration was located in Skien. The county municipality had 1,544 employees, and in 2007, a revenue of 1,508 million kr.[1] You can't just go around changing people's names. That's not right. It's dishonest, and it's wrong. The most interesting town in the world is Austin, Texas. Robert Flynn (né Robert Lopez Flynn; born 12 April 1932, in Chillicothe, Texas) is an author and professor emeritus at Trinity University.\nEarly life and education\nFlynn joined the Marines and served for two years during the Korea War era. In 1954, he received drama degree from Baylor University. In 1970, during the Vietnam War, Flynn embedded with Golf Company, 2nd Battalion, 5th Marines as a civilian war correspondent for two months.[1][2]\n\"\"\"\ndef I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"",
         "detail": "src.regex_creation",
         "documentation": {}
     },
@@ -2645,7 +2645,25 @@
         "kind": 2,
         "importPath": "starting_files.drudgescraper",
         "description": "starting_files.drudgescraper",
-        "peekOfCode": "def drudge_scrape():\n    # get the html from the drudge report\n    response = requests.get('http://drudgereport.com')\n    soup = bs4.BeautifulSoup(response.text, 'html.parser')\n    # get the list of links\n    links = soup.find_all('a')\n    # filter for only the links that have http in them\n    links = [link for link in links if 'http' in link.get('href')]\n    # return the list of links\n    return links",
+        "peekOfCode": "def drudge_scrape():\n    pass\n# 2. Sentiment Analysis of the Titles\n## Write a function that takes in a list of links and returns a list of sentiment scores of the titles of those articles (use the VADER sentiment analyzer)\ndef sentiment_of_titles():\n    pass\n# 3. Data visualization of that sentiment using a swarm plot in seaborn\n## Write a function that takes in a list of sentiment scores and returns a swarm plot of those scores (use seaborn)\ndef sentiment_swarm():\n    pass",
+        "detail": "starting_files.drudgescraper",
+        "documentation": {}
+    },
+    {
+        "label": "sentiment_of_titles",
+        "kind": 2,
+        "importPath": "starting_files.drudgescraper",
+        "description": "starting_files.drudgescraper",
+        "peekOfCode": "def sentiment_of_titles():\n    pass\n# 3. Data visualization of that sentiment using a swarm plot in seaborn\n## Write a function that takes in a list of sentiment scores and returns a swarm plot of those scores (use seaborn)\ndef sentiment_swarm():\n    pass",
+        "detail": "starting_files.drudgescraper",
+        "documentation": {}
+    },
+    {
+        "label": "sentiment_swarm",
+        "kind": 2,
+        "importPath": "starting_files.drudgescraper",
+        "description": "starting_files.drudgescraper",
+        "peekOfCode": "def sentiment_swarm():\n    pass",
         "detail": "starting_files.drudgescraper",
         "documentation": {}
     },

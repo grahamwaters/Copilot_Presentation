@@ -263,12 +263,14 @@ import pyro.ops.indexing as pyi, pyro.ops.sample as pys, pyro.ops.stats as pys, 
 # 1. Parsing Drudge Report
 ## Write a function that parses the text on Drudge Report and returns a list of links to articles
 def drudge_scrape():
-    # get the html from the drudge report
-    response = requests.get('http://drudgereport.com')
-    soup = bs4.BeautifulSoup(response.text, 'html.parser')
-    # get the list of links
-    links = soup.find_all('a')
-    # filter for only the links that have http in them
-    links = [link for link in links if 'http' in link.get('href')]
-    # return the list of links
-    return links
+    pass
+
+# 2. Sentiment Analysis of the Titles
+## Write a function that takes in a list of links and returns a list of sentiment scores of the titles of those articles (use the VADER sentiment analyzer)
+def sentiment_of_titles():
+    pass
+
+# 3. Data visualization of that sentiment using a swarm plot in seaborn
+## Write a function that takes in a list of sentiment scores and returns a swarm plot of those scores (use seaborn)
+def sentiment_swarm():
+    pass

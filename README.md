@@ -57,7 +57,11 @@ Answer: I'm familiar with the following libraries: pandas, numpy, matplotlib, se
 # Table of Contents
 
 1. [Demo 1 - Drudge Report Scraping](./src/webscraping_demo.py)
-2. [Demo 2 - Regex Creation](./src/regex_creation.py)
+2. [Demo 2 - Regex Pattern Development](./src/regex_creation.py)
 3. [Demo 3 - Sentiment Analysis](./src/sentiment_analysis.py)
 4. [Demo 4 - Data Visualization](./src/data_visualization.py)
 5. [Debugging Prompt Generator](./demos/debugging/debugging_helper.ipynb)
+
+
+# Other Demos
+- [Chuck Norris Description Finder](./demos/chucknorrisfinder/chuck.py) - Scrapes Wikipedia for articles describing Chuck Norris and returns the paragraph and title of the first article it finds using regex.
