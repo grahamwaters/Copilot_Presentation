@@ -1,0 +1,51 @@
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/indexes/base.py:3803, in Index.get_loc(self, key, method, tolerance)
+   3802 try:
+-> 3803     return self._engine.get_loc(casted_key)
+   3804 except KeyError as err:
+
+File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/_libs/index.pyx:138, in pandas._libs.index.IndexEngine.get_loc()
+
+File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/_libs/index.pyx:165, in pandas._libs.index.IndexEngine.get_loc()
+
+File pandas/_libs/hashtable_class_helper.pxi:5745, in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+File pandas/_libs/hashtable_class_helper.pxi:5753, in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: 'ID'
+
+The above exception was the direct cause of the following exception:
+
+KeyError                                  Traceback (most recent call last)
+Cell In[6], line 2
+      1 # Read in the data
+----> 2 dfs = read_xlsx(file_path)
+      3 # show one of the dataframes head
+      4 dfs["Categories"].head()
+
+Cell In[5], line 48, in read_xlsx(file_path)
+     45     col_type = type(second_row[col])
+     47     # Cast the column to the type of the second row value
+---> 48     df[col] = df[col].astype(col_type)
+     50 # Create a folder for the sheet if it doesn't exist
+     51 os.makedirs(f"../data/processed/extracted_dfs/{sheet}", exist_ok=True)
+
+File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/frame.py:3805, in DataFrame.__getitem__(self, key)
+   3803 if self.columns.nlevels > 1:
+   3804     return self._getitem_multilevel(key)
+-> 3805 indexer = self.columns.get_loc(key)
+   3806 if is_integer(indexer):
+   3807     indexer = [indexer]
+
+File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/indexes/base.py:3805, in Index.get_loc(self, key, method, tolerance)
+   3803     return self._engine.get_loc(casted_key)
+   3804 except KeyError as err:
+-> 3805     raise KeyError(key) from err
+   3806 except TypeError:
+   3807     # If we have a listlike key, _check_indexing_error will raise
+   3808     #  InvalidIndexError. Otherwise we fall through and re-raise
+   3809     #  the TypeError.
+   3810     self._check_indexing_error(key)
+
+KeyError: 'ID'
