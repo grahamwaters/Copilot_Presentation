@@ -37,7 +37,8 @@ from bokeh.io import output_notebook
 # 3 - write a function that takes a list of strings and returns a list of strings with the first letter capitalized
 # 4 - write a function to tell me the last price of AAPL stock and print it to the screen
 # 5 - write a function that pulls the titles of all articles on the drudge report and then performs a basic sentiment analysis on them. The function should return a list of tuples with the title and the sentiment score. This feeds into function six.
-# 6 - Create a grid plot of the sentiment scores of all articles on the drudge report right now where the color of the square is the sentiment score, the position has no meaning, and the size of the square is the number of words in the title. The function should return the plot and save it to a file called drudge_report_sentiment_date.png where date is the current date and time converted to string format suitable for a filename.
+# 6 - Create a grid plot of the sentiment scores of all article titles on the drudge report page right now. where the color of the square is the sentiment score, the position has no meaning, and the size of the square is the number of words in the title. The function should return the plot and save it to a file called drudge_report_sentiment_date.png where date is the current date and time converted to string format suitable for a filename.
+
 
 # example one
 def get_drudge_links():
