@@ -244,6 +244,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "seaborn",
         "kind": 6,
         "isExtraImport": true,
@@ -304,6 +320,14 @@
         "importPath": "nltk",
         "description": "nltk",
         "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -623,11 +647,51 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "bs4",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "bs4",
         "description": "bs4",
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
         "detail": "bs4",
         "documentation": {}
     },
@@ -753,6 +817,14 @@
         "documentation": {}
     },
     {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
         "label": "figure",
         "importPath": "bokeh.plotting",
         "description": "bokeh.plotting",
@@ -770,6 +842,30 @@
     },
     {
         "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
         "importPath": "bokeh.plotting",
         "description": "bokeh.plotting",
         "isExtraImport": true,
@@ -913,6 +1009,22 @@
         "documentation": {}
     },
     {
+        "label": "ColumnDataSource",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "HoverTool",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
         "label": "HoverTool",
         "importPath": "bokeh.models",
         "description": "bokeh.models",
@@ -1038,6 +1150,22 @@
         "description": "bokeh.transform",
         "isExtraImport": true,
         "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "factor_cmap",
+        "importPath": "bokeh.transform",
+        "description": "bokeh.transform",
+        "isExtraImport": true,
+        "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Spectral6",
+        "importPath": "bokeh.palettes",
+        "description": "bokeh.palettes",
+        "isExtraImport": true,
+        "detail": "bokeh.palettes",
         "documentation": {}
     },
     {
@@ -1146,6 +1274,14 @@
         "documentation": {}
     },
     {
+        "label": "output_notebook",
+        "importPath": "bokeh.io",
+        "description": "bokeh.io",
+        "isExtraImport": true,
+        "detail": "bokeh.io",
+        "documentation": {}
+    },
+    {
         "label": "wikipedia",
         "kind": 6,
         "isExtraImport": true,
@@ -1189,156 +1325,11 @@
         "documentation": {}
     },
     {
-        "label": "plotly.express",
-        "kind": 6,
+        "label": "SentimentIntensityAnalyzer",
+        "importPath": "nltk.sentiment.vader",
+        "description": "nltk.sentiment.vader",
         "isExtraImport": true,
-        "importPath": "plotly.express",
-        "description": "plotly.express",
-        "detail": "plotly.express",
-        "documentation": {}
-    },
-    {
-        "label": "nltk,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "nltk.",
-        "description": "nltk.",
-        "detail": "nltk.",
-        "documentation": {}
-    },
-    {
-        "label": "openpyxl,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "openpyxl.",
-        "description": "openpyxl.",
-        "detail": "openpyxl.",
-        "documentation": {}
-    },
-    {
-        "label": "textblob,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "textblob.",
-        "description": "textblob.",
-        "detail": "textblob.",
-        "documentation": {}
-    },
-    {
-        "label": "catboost",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "catboost",
-        "description": "catboost",
-        "detail": "catboost",
-        "documentation": {}
-    },
-    {
-        "label": "keras.callbacks",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "keras.callbacks",
-        "description": "keras.callbacks",
-        "detail": "keras.callbacks",
-        "documentation": {}
-    },
-    {
-        "label": "patsy,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "patsy.",
-        "description": "patsy.",
-        "detail": "patsy.",
-        "documentation": {}
-    },
-    {
-        "label": "tensorflow",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "tensorflow",
-        "description": "tensorflow",
-        "detail": "tensorflow",
-        "documentation": {}
-    },
-    {
-        "label": "keras.applications",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "keras.applications",
-        "description": "keras.applications",
-        "detail": "keras.applications",
-        "documentation": {}
-    },
-    {
-        "label": "torchtext,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "torchtext.",
-        "description": "torchtext.",
-        "detail": "torchtext.",
-        "documentation": {}
-    },
-    {
-        "label": "numpy.fft",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy.fft",
-        "description": "numpy.fft",
-        "detail": "numpy.fft",
-        "documentation": {}
-    },
-    {
-        "label": "pyro.contrib.autoguide",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pyro.contrib.autoguide",
-        "description": "pyro.contrib.autoguide",
-        "detail": "pyro.contrib.autoguide",
-        "documentation": {}
-    },
-    {
-        "label": "pyro.ops.indexing",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pyro.ops.indexing",
-        "description": "pyro.ops.indexing",
-        "detail": "pyro.ops.indexing",
-        "documentation": {}
-    },
-    {
-        "label": "gensim,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "gensim.",
-        "description": "gensim.",
-        "detail": "gensim.",
-        "documentation": {}
-    },
-    {
-        "label": "cv2,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "cv2.",
-        "description": "cv2.",
-        "detail": "cv2.",
-        "documentation": {}
-    },
-    {
-        "label": "librosa,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "librosa.",
-        "description": "librosa.",
-        "detail": "librosa.",
-        "documentation": {}
-    },
-    {
-        "label": "os,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os.",
-        "description": "os.",
-        "detail": "os.",
+        "detail": "nltk.sentiment.vader",
         "documentation": {}
     },
     {
@@ -1369,12 +1360,30 @@
         "documentation": {}
     },
     {
+        "label": "plotly.express",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
+        "documentation": {}
+    },
+    {
         "label": "plotly.graph_objs",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "plotly.graph_objs",
         "description": "plotly.graph_objs",
         "detail": "plotly.graph_objs",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
         "documentation": {}
     },
     {
@@ -1567,6 +1576,15 @@
         "documentation": {}
     },
     {
+        "label": "catboost",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "catboost",
+        "description": "catboost",
+        "detail": "catboost",
+        "documentation": {}
+    },
+    {
         "label": "keras",
         "kind": 6,
         "isExtraImport": true,
@@ -1594,12 +1612,30 @@
         "documentation": {}
     },
     {
+        "label": "keras.callbacks",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras.callbacks",
+        "description": "keras.callbacks",
+        "detail": "keras.callbacks",
+        "documentation": {}
+    },
+    {
         "label": "keras.preprocessing",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "keras.preprocessing",
         "description": "keras.preprocessing",
         "detail": "keras.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "keras.applications",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras.applications",
+        "description": "keras.applications",
+        "detail": "keras.applications",
         "documentation": {}
     },
     {
@@ -1717,6 +1753,15 @@
         "importPath": "numpy.linalg",
         "description": "numpy.linalg",
         "detail": "numpy.linalg",
+        "documentation": {}
+    },
+    {
+        "label": "numpy.fft",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy.fft",
+        "description": "numpy.fft",
+        "detail": "numpy.fft",
         "documentation": {}
     },
     {
@@ -1864,6 +1909,15 @@
         "documentation": {}
     },
     {
+        "label": "pyro.contrib.autoguide",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.contrib.autoguide",
+        "description": "pyro.contrib.autoguide",
+        "detail": "pyro.contrib.autoguide",
+        "documentation": {}
+    },
+    {
         "label": "pyro.poutine",
         "kind": 6,
         "isExtraImport": true,
@@ -1879,6 +1933,15 @@
         "importPath": "pyro.ops.stats",
         "description": "pyro.ops.stats",
         "detail": "pyro.ops.stats",
+        "documentation": {}
+    },
+    {
+        "label": "pyro.ops.indexing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyro.ops.indexing",
+        "description": "pyro.ops.indexing",
+        "detail": "pyro.ops.indexing",
         "documentation": {}
     },
     {
@@ -2449,6 +2512,87 @@
         "documentation": {}
     },
     {
+        "label": "nltk,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk.",
+        "description": "nltk.",
+        "detail": "nltk.",
+        "documentation": {}
+    },
+    {
+        "label": "openpyxl,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openpyxl.",
+        "description": "openpyxl.",
+        "detail": "openpyxl.",
+        "documentation": {}
+    },
+    {
+        "label": "textblob,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textblob.",
+        "description": "textblob.",
+        "detail": "textblob.",
+        "documentation": {}
+    },
+    {
+        "label": "patsy,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "patsy.",
+        "description": "patsy.",
+        "detail": "patsy.",
+        "documentation": {}
+    },
+    {
+        "label": "torchtext,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchtext.",
+        "description": "torchtext.",
+        "detail": "torchtext.",
+        "documentation": {}
+    },
+    {
+        "label": "gensim,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gensim.",
+        "description": "gensim.",
+        "detail": "gensim.",
+        "documentation": {}
+    },
+    {
+        "label": "cv2,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2.",
+        "description": "cv2.",
+        "detail": "cv2.",
+        "documentation": {}
+    },
+    {
+        "label": "librosa,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa.",
+        "description": "librosa.",
+        "detail": "librosa.",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
         "label": "pycel",
         "kind": 6,
         "isExtraImport": true,
@@ -2471,6 +2615,14 @@
         "description": "pycel.excelutil",
         "isExtraImport": true,
         "detail": "pycel.excelutil",
+        "documentation": {}
+    },
+    {
+        "label": "sent_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
         "documentation": {}
     },
     {
@@ -2550,7 +2702,7 @@
         "kind": 2,
         "importPath": "src.solutions.drudgescrapersolution",
         "description": "src.solutions.drudgescrapersolution",
-        "peekOfCode": "def scrape_drudge():\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')\n    #* parse the html\n    page_soup = soup(r.text, 'html.parser')\n    #* get the links\n    links = page_soup.findAll('a')\n    #* initialize a list to hold the links\n    link_list = []\n    title_list = []",
+        "peekOfCode": "def scrape_drudge():\n    \"\"\"\n    scrape_drudge Scrape the Drudge Report website and return a list of links, titles, sentiment scores, and domains.\n    The function uses the requests library to get the html from the Drudge Report website, then uses the soup library to parse the html. The links are extracted using findAll and added to the link_list. The titles of the links are obtained using the title_diviner function and added to the title_list. The sentiment scores of the titles are obtained using the TextBlob library and added to the sentiment_scores list. The domains of the links are obtained using the get_domain_name function and added to the domains\n    _extended_summary_\n    :return: _description_\n    :rtype: _type_\n    \"\"\"\n    #* get the html from drudge report\n    r = requests.get('http://www.drudgereport.com/')",
         "detail": "src.solutions.drudgescrapersolution",
         "documentation": {}
     },
@@ -2672,6 +2824,24 @@
         "documentation": {}
     },
     {
+        "label": "I_just_cant",
+        "kind": 2,
+        "importPath": "src.solutions.regex_creation",
+        "description": "src.solutions.regex_creation",
+        "peekOfCode": "def I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"\n    \"\"\"\n    # split the content into paragraphs\n    paragraphs = full_text.split('\\n')\n    # compile the regex\n    regex = re.compile(r'(?i)can\\'t just|just can\\'t')\n    # loop through the paragraphs",
+        "detail": "src.solutions.regex_creation",
+        "documentation": {}
+    },
+    {
+        "label": "example_text",
+        "kind": 5,
+        "importPath": "src.solutions.regex_creation",
+        "description": "src.solutions.regex_creation",
+        "peekOfCode": "example_text = \"\"\"\nTelemark County Municipality (Norwegian: Telemark fylkeskommune) was the regional governing administration of the old Telemark county in Norway. The county municipality was established in its current form on 1 January 1976 when the law was changed to allow elected county councils in Norway. The county municipality was dissolved on 1 January 2020, when Telemark was merged with the neighboring Vestfold county, creating the new Vestfold og Telemark county which is led by the Vestfold og Telemark County Municipality.\nThe main responsibilities of the county municipality included the running of 29 upper secondary schools. It administered the county roadways, public transport, dental care, culture, and cultural heritage in the county. The administration was located in Skien. The county municipality had 1,544 employees, and in 2007, a revenue of 1,508 million kr.[1] You can't just go around changing people's names. That's not right. It's dishonest, and it's wrong. The most interesting town in the world is Austin, Texas. Robert Flynn (né Robert Lopez Flynn; born 12 April 1932, in Chillicothe, Texas) is an author and professor emeritus at Trinity University.\nEarly life and education\nFlynn joined the Marines and served for two years during the Korea War era. In 1954, he received drama degree from Baylor University. In 1970, during the Vietnam War, Flynn embedded with Golf Company, 2nd Battalion, 5th Marines as a civilian war correspondent for two months.[1][2]\n\"\"\"\ndef I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"",
+        "detail": "src.solutions.regex_creation",
+        "documentation": {}
+    },
+    {
         "label": "get_drudge_links",
         "kind": 2,
         "importPath": "src.1",
@@ -2690,29 +2860,11 @@
         "documentation": {}
     },
     {
-        "label": "I_just_cant",
-        "kind": 2,
-        "importPath": "src.regex_creation",
-        "description": "src.regex_creation",
-        "peekOfCode": "def I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"\n    \"\"\"\n    # split the content into paragraphs\n    paragraphs = full_text.split('\\n')\n    # compile the regex\n    regex = re.compile(r'(?i)can\\'t just|just can\\'t')\n    # loop through the paragraphs",
-        "detail": "src.regex_creation",
-        "documentation": {}
-    },
-    {
-        "label": "example_text",
-        "kind": 5,
-        "importPath": "src.regex_creation",
-        "description": "src.regex_creation",
-        "peekOfCode": "example_text = \"\"\"\nTelemark County Municipality (Norwegian: Telemark fylkeskommune) was the regional governing administration of the old Telemark county in Norway. The county municipality was established in its current form on 1 January 1976 when the law was changed to allow elected county councils in Norway. The county municipality was dissolved on 1 January 2020, when Telemark was merged with the neighboring Vestfold county, creating the new Vestfold og Telemark county which is led by the Vestfold og Telemark County Municipality.\nThe main responsibilities of the county municipality included the running of 29 upper secondary schools. It administered the county roadways, public transport, dental care, culture, and cultural heritage in the county. The administration was located in Skien. The county municipality had 1,544 employees, and in 2007, a revenue of 1,508 million kr.[1] You can't just go around changing people's names. That's not right. It's dishonest, and it's wrong. The most interesting town in the world is Austin, Texas. Robert Flynn (né Robert Lopez Flynn; born 12 April 1932, in Chillicothe, Texas) is an author and professor emeritus at Trinity University.\nEarly life and education\nFlynn joined the Marines and served for two years during the Korea War era. In 1954, he received drama degree from Baylor University. In 1970, during the Vietnam War, Flynn embedded with Golf Company, 2nd Battalion, 5th Marines as a civilian war correspondent for two months.[1][2]\n\"\"\"\ndef I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"",
-        "detail": "src.regex_creation",
-        "documentation": {}
-    },
-    {
         "label": "read_xlsx",
         "kind": 2,
         "importPath": "src.sandbox",
         "description": "src.sandbox",
-        "peekOfCode": "def read_xlsx(file_path):\n    \"\"\"\n    read_xlsx is a function that reads an XLSX file and returns dataframes where each sheet is a dataframe, each column of each df should be type-cast based on the values from the corresponding sheet in the second row, and the column names are in the first row. The function should save these dataframes in a folder called `extracted_dfs` with each sheet in its own folder named after the sheet's name in the file. Within these folders, the function should save the dataframe as a pickle file. The function should return a dictionary with the sheet names as keys and the dataframe information as values.\n    The libraries used in this function are: `os`, `pandas`, `numpy`.\n    :param file_path: _description_\n    :type file_path: _type_\n    :return: _description_\n    :rtype: _type_\n    \"\"\"\n    # Read in the file",
+        "peekOfCode": "def read_xlsx(file_path):\n    \"\"\"\n    Reads an XLSX file and saves each sheet as a separate dataframe in the folder 'extracted_dfs'.\n    Each column of each dataframe is type-cast based on the values from the second row and the column names are in the first row.\n    Parameters:\n        file_path (str): Path to the XLSX file.\n    Returns:\n        dict: A dictionary with sheet names as keys and the corresponding dataframes as values.\n    \"\"\"\n    # Create a folder to store the extracted dataframes",
         "detail": "src.sandbox",
         "documentation": {}
     },
@@ -2721,16 +2873,34 @@
         "kind": 5,
         "importPath": "src.sandbox",
         "description": "src.sandbox",
-        "peekOfCode": "file_path = \"../data/data/raw/NorthwindTradersTables.xlsx\"\ndef read_xlsx(file_path):\n    \"\"\"\n    read_xlsx is a function that reads an XLSX file and returns dataframes where each sheet is a dataframe, each column of each df should be type-cast based on the values from the corresponding sheet in the second row, and the column names are in the first row. The function should save these dataframes in a folder called `extracted_dfs` with each sheet in its own folder named after the sheet's name in the file. Within these folders, the function should save the dataframe as a pickle file. The function should return a dictionary with the sheet names as keys and the dataframe information as values.\n    The libraries used in this function are: `os`, `pandas`, `numpy`.\n    :param file_path: _description_\n    :type file_path: _type_\n    :return: _description_\n    :rtype: _type_\n    \"\"\"",
+        "peekOfCode": "file_path = \"../data/raw/NorthwindTradersTables.xlsx\"\ndef read_xlsx(file_path):\n    \"\"\"\n    Reads an XLSX file and saves each sheet as a separate dataframe in the folder 'extracted_dfs'.\n    Each column of each dataframe is type-cast based on the values from the second row and the column names are in the first row.\n    Parameters:\n        file_path (str): Path to the XLSX file.\n    Returns:\n        dict: A dictionary with sheet names as keys and the corresponding dataframes as values.\n    \"\"\"",
         "detail": "src.sandbox",
         "documentation": {}
     },
     {
-        "label": "drudge_scrape",
+        "label": "title_diviner",
         "kind": 2,
         "importPath": "starting_files.drudgescraper",
         "description": "starting_files.drudgescraper",
-        "peekOfCode": "def drudge_scrape():\n    pass\n# 2. Sentiment Analysis of the Titles\n## Write a function that takes in a list of links and returns a list of sentiment scores of the titles of those articles (use the VADER sentiment analyzer)\ndef sentiment_of_titles():\n    pass\n# 3. Data visualization of that sentiment using a swarm plot in seaborn\n## Write a function that takes in a list of sentiment scores and returns a swarm plot of those scores (use seaborn)\ndef sentiment_swarm():\n    pass",
+        "peekOfCode": "def title_diviner(href):\n    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.\n    pass\ndef get_domain_name(url):\n    #takes a url and returns the domain name of the url. For example, if the url is https://www.google.com, the function should return google.com\n    pass\n# 1. Parsing Drudge Report\n## Write a function that parses the text on Drudge Report and returns a list of links to articles\ndef scrape_drudge():\n    # returns link_list, title_list, sentiment_scores, domains",
+        "detail": "starting_files.drudgescraper",
+        "documentation": {}
+    },
+    {
+        "label": "get_domain_name",
+        "kind": 2,
+        "importPath": "starting_files.drudgescraper",
+        "description": "starting_files.drudgescraper",
+        "peekOfCode": "def get_domain_name(url):\n    #takes a url and returns the domain name of the url. For example, if the url is https://www.google.com, the function should return google.com\n    pass\n# 1. Parsing Drudge Report\n## Write a function that parses the text on Drudge Report and returns a list of links to articles\ndef scrape_drudge():\n    # returns link_list, title_list, sentiment_scores, domains\n    \"\"\"scrape_drudge Scrape the Drudge Report website and return a list of links, titles, sentiment scores, and domains.\n    The function uses the requests library to get the html from the Drudge Report website, then uses the soup library to parse the html. The links are extracted using findAll and added to the link_list. The titles of the links are obtained using the title_diviner function and added to the title_list. The sentiment scores of the titles are obtained using the TextBlob library and added to the sentiment_scores list. The domains of the links are obtained using the get_domain_name function and added to the domains\"\"\"\n    pass",
+        "detail": "starting_files.drudgescraper",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_drudge",
+        "kind": 2,
+        "importPath": "starting_files.drudgescraper",
+        "description": "starting_files.drudgescraper",
+        "peekOfCode": "def scrape_drudge():\n    # returns link_list, title_list, sentiment_scores, domains\n    \"\"\"scrape_drudge Scrape the Drudge Report website and return a list of links, titles, sentiment scores, and domains.\n    The function uses the requests library to get the html from the Drudge Report website, then uses the soup library to parse the html. The links are extracted using findAll and added to the link_list. The titles of the links are obtained using the title_diviner function and added to the title_list. The sentiment scores of the titles are obtained using the TextBlob library and added to the sentiment_scores list. The domains of the links are obtained using the get_domain_name function and added to the domains\"\"\"\n    pass\n# 2. Sentiment Analysis of the Titles\n## Write a function that takes in a list of links and returns a list of sentiment scores of the titles of those articles (use the VADER sentiment analyzer)\ndef sentiment_of_titles():\n    pass\n# 3. Data visualization of that sentiment using a swarm plot in seaborn",
         "detail": "starting_files.drudgescraper",
         "documentation": {}
     },
@@ -2867,6 +3037,69 @@
         "description": "starting_files.regex_start",
         "peekOfCode": "example_text = \"\"\"\nTelemark County Municipality (Norwegian: Telemark fylkeskommune) was the regional governing administration of the old Telemark county in Norway. The county municipality was established in its current form on 1 January 1976 when the law was changed to allow elected county councils in Norway. The county municipality was dissolved on 1 January 2020, when Telemark was merged with the neighboring Vestfold county, creating the new Vestfold og Telemark county which is led by the Vestfold og Telemark County Municipality.\nThe main responsibilities of the county municipality included the running of 29 upper secondary schools. It administered the county roadways, public transport, dental care, culture, and cultural heritage in the county. The administration was located in Skien. The county municipality had 1,544 employees, and in 2007, a revenue of 1,508 million kr.[1] You can't just go around changing people's names. That's not right. It's dishonest, and it's wrong. The most interesting town in the world is Austin, Texas. Robert Flynn (né Robert Lopez Flynn; born 12 April 1932, in Chillicothe, Texas) is an author and professor emeritus at Trinity University.\nEarly life and education\nFlynn joined the Marines and served for two years during the Korea War era. In 1954, he received drama degree from Baylor University. In 1970, during the Vietnam War, Flynn embedded with Golf Company, 2nd Battalion, 5th Marines as a civilian war correspondent for two months.[1][2]\n\"\"\"\ndef I_just_cant(full_text):\n    \"\"\"\n    This function takes text in as an argument\n    then scans that text to find if it contains the phrase \"Can't just\" or \"Just Can't\", where the case of the text does not matter, using regex and prints the paragraph where the sentence occurs to the screen if it does. If it does not find a match it prints \"No match found\"",
         "detail": "starting_files.regex_start",
+        "documentation": {}
+    },
+    {
+        "label": "get_book",
+        "kind": 2,
+        "importPath": "starting_files.sentiment_analysis",
+        "description": "starting_files.sentiment_analysis",
+        "peekOfCode": "def get_book():\n    \"\"\"\n    get_book Use the Gutenberg Project API to get the text of the book.\n    \"\"\"\n    #* get the text of the book\n    book = requests.get('http://www.gutenberg.org/files/1400/1400-0.txt').text\n    #* return the text\n    return book\ndef tokenize(book):\n    \"\"\"",
+        "detail": "starting_files.sentiment_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "kind": 2,
+        "importPath": "starting_files.sentiment_analysis",
+        "description": "starting_files.sentiment_analysis",
+        "peekOfCode": "def tokenize(book):\n    \"\"\"\n    tokenize Use the nltk library to tokenize the text into sentences.\n    \"\"\"\n    #* tokenize the text into sentences\n    sentences = sent_tokenize(book)\n    #* return the sentences\n    return sentences\ndef get_sentiment(sentences):\n    \"\"\"",
+        "detail": "starting_files.sentiment_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "get_sentiment",
+        "kind": 2,
+        "importPath": "starting_files.sentiment_analysis",
+        "description": "starting_files.sentiment_analysis",
+        "peekOfCode": "def get_sentiment(sentences):\n    \"\"\"\n    get_sentiment Use the VADER sentiment analyzer to get the sentiment of each sentence.\n    \"\"\"\n    #* initialize the sentiment analyzer\n    analyzer = SentimentIntensityAnalyzer()\n    #* initialize a list to hold the sentiment scores\n    sentiment_scores = []\n    #* loop over the sentences\n    for sentence in sentences:",
+        "detail": "starting_files.sentiment_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "swarm_plot",
+        "kind": 2,
+        "importPath": "starting_files.sentiment_analysis",
+        "description": "starting_files.sentiment_analysis",
+        "peekOfCode": "def swarm_plot(sentiment_scores):\n    \"\"\"\n    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot.\n    \"\"\"\n    #* initialize the plot\n    plt.figure(figsize=(10, 5))\n    #* make the swarm plot\n    sns.swarmplot(x='compound', y='sentence', data=sentiment_scores)\n    #* set the title\n    plt.title('Sentiment of each sentence in Great Expectations')",
+        "detail": "starting_files.sentiment_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "add_title",
+        "kind": 2,
+        "importPath": "starting_files.sentiment_analysis",
+        "description": "starting_files.sentiment_analysis",
+        "peekOfCode": "def add_title():\n    \"\"\"\n    add_title Use the matplotlib library to add a title to the plot.\n    \"\"\"\n    #* add a title to the plot\n    plt.title('Sentiment of each sentence in Great Expectations')\ndef save_plot():\n    \"\"\"\n    save_plot Use the matplotlib library to save the plot as a png file.\n    \"\"\"",
+        "detail": "starting_files.sentiment_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "save_plot",
+        "kind": 2,
+        "importPath": "starting_files.sentiment_analysis",
+        "description": "starting_files.sentiment_analysis",
+        "peekOfCode": "def save_plot():\n    \"\"\"\n    save_plot Use the matplotlib library to save the plot as a png file.\n    \"\"\"\n    #* save the plot\n    plt.savefig('greatexpectations_sentmap.png')\ndef great_expectations():\n    \"\"\"\n    great_expectations Use sentiment analysis in VADER to analyze the sentiment of each chapter of Great Expectations by Charles Dickens. Use the Gutenberg Project API to get the text of the book. Use the nltk library to tokenize the text into sentences. Use the VADER sentiment analyzer to get the sentiment of each sentence. Use the seaborn library to plot the sentiment of each sentence as a swarm plot. Use the matplotlib library to add a title to the plot. Use the matplotlib library to save the plot as a png file.\n    \"\"\"",
+        "detail": "starting_files.sentiment_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "great_expectations",
+        "kind": 2,
+        "importPath": "starting_files.sentiment_analysis",
+        "description": "starting_files.sentiment_analysis",
+        "peekOfCode": "def great_expectations():\n    \"\"\"\n    great_expectations Use sentiment analysis in VADER to analyze the sentiment of each chapter of Great Expectations by Charles Dickens. Use the Gutenberg Project API to get the text of the book. Use the nltk library to tokenize the text into sentences. Use the VADER sentiment analyzer to get the sentiment of each sentence. Use the seaborn library to plot the sentiment of each sentence as a swarm plot. Use the matplotlib library to add a title to the plot. Use the matplotlib library to save the plot as a png file.\n    \"\"\"\n    #* get the text of the book\n    book = get_book()\n    #* tokenize the text into sentences\n    sentences = tokenize(book)\n    #* get the sentiment of each sentence\n    sentiment_scores = get_sentiment(sentences)",
+        "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     }
 ]

@@ -16,6 +16,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from tqdm import tqdm
 # import nltk
 import nltk
+
 #& Helper Functions
 def title_diviner(href):
     # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.
@@ -42,6 +43,16 @@ def get_domain_name(url):
 
 # Step 1 - get the links and the titles from those links as well as their sentiment scores
 def scrape_drudge():
+    """
+    scrape_drudge Scrape the Drudge Report website and return a list of links, titles, sentiment scores, and domains.
+
+    The function uses the requests library to get the html from the Drudge Report website, then uses the soup library to parse the html. The links are extracted using findAll and added to the link_list. The titles of the links are obtained using the title_diviner function and added to the title_list. The sentiment scores of the titles are obtained using the TextBlob library and added to the sentiment_scores list. The domains of the links are obtained using the get_domain_name function and added to the domains
+
+    _extended_summary_
+
+    :return: _description_
+    :rtype: _type_
+    """
     #* get the html from drudge report
     r = requests.get('http://www.drudgereport.com/')
     #* parse the html
@@ -62,7 +73,7 @@ def scrape_drudge():
         sentiment_scores.append(sentiment_score)
         domains.append(get_domain_name(link['href']))
     #* return the list
-    return link_list, title_list, sentiment_score, domains
+    return link_list, title_list, sentiment_scores, domains
 
 # creating a swarm plot
 def swarm_plot(df, x, y, hue, title, xlabel, ylabel, filename):
@@ -116,8 +127,8 @@ def main():
         try:
             #* get the domain name
             domain_name = domain[0]
-            #* get the sentiment scores for the domain's titles in drudge_titles
-            domain_sentiment = [sentiment_score[i] for i, domain in enumerate(domains) if domain == domain_name]
+            #* get the list of all sentiment scores of titles that belong to the current domain
+            domain_sentiment = [sentiment_score for domain, sentiment_score in zip(domains, sentiment_score) if domain == domain_name]
             #* get the average sentiment score
             domain_sentiment_average = sum(domain_sentiment) / len(domain_sentiment)
             #* add the domain name and the average sentiment score to the list

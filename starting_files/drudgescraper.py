@@ -260,9 +260,23 @@ import numpy.fft as nfft, numpy.matlib as nmlib, numpy.polynomial as npoly, nump
 import pyro.contrib.autoguide as pyca, pyro.distributions as pyd, pyro.infer as pyi, pyro.optim as pyop, pyro.poutine as pyp
 import pyro.ops.indexing as pyi, pyro.ops.sample as pys, pyro.ops.stats as pys, pyro.ops.stats.gaussian_kernel as pysgk, pyro.ops.stats.histogram as pysh, pyro.ops.stats.median as pysm, pyro.ops
 
+## Helper Functions
+def title_diviner(href):
+    # get the title of the article from a link passed to the function. The title is the text between the last / and the last - in the link.
+    pass
+
+def get_domain_name(url):
+    #takes a url and returns the domain name of the url. For example, if the url is https://www.google.com, the function should return google.com
+    pass
+
+
 # 1. Parsing Drudge Report
 ## Write a function that parses the text on Drudge Report and returns a list of links to articles
-def drudge_scrape():
+def scrape_drudge():
+    # returns link_list, title_list, sentiment_scores, domains
+    """scrape_drudge Scrape the Drudge Report website and return a list of links, titles, sentiment scores, and domains.
+
+    The function uses the requests library to get the html from the Drudge Report website, then uses the soup library to parse the html. The links are extracted using findAll and added to the link_list. The titles of the links are obtained using the title_diviner function and added to the title_list. The sentiment scores of the titles are obtained using the TextBlob library and added to the sentiment_scores list. The domains of the links are obtained using the get_domain_name function and added to the domains"""
     pass
 
 # 2. Sentiment Analysis of the Titles
