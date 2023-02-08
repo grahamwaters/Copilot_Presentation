@@ -180,6 +180,14 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "seaborn",
         "kind": 6,
         "isExtraImport": true,
@@ -240,6 +248,14 @@
         "importPath": "nltk",
         "description": "nltk",
         "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -399,11 +415,35 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "bs4",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "bs4",
         "description": "bs4",
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
         "detail": "bs4",
         "documentation": {}
     },
@@ -465,6 +505,38 @@
         "documentation": {}
     },
     {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
         "label": "figure",
         "importPath": "bokeh.plotting",
         "description": "bokeh.plotting",
@@ -569,6 +641,22 @@
         "documentation": {}
     },
     {
+        "label": "HoverTool",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnDataSource",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
         "label": "ColumnDataSource",
         "importPath": "bokeh.models",
         "description": "bokeh.models",
@@ -606,6 +694,22 @@
         "description": "bokeh.transform",
         "isExtraImport": true,
         "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "factor_cmap",
+        "importPath": "bokeh.transform",
+        "description": "bokeh.transform",
+        "isExtraImport": true,
+        "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Spectral6",
+        "importPath": "bokeh.palettes",
+        "description": "bokeh.palettes",
+        "isExtraImport": true,
+        "detail": "bokeh.palettes",
         "documentation": {}
     },
     {
@@ -638,6 +742,14 @@
         "isExtraImport": true,
         "importPath": "bokeh.io",
         "description": "bokeh.io",
+        "detail": "bokeh.io",
+        "documentation": {}
+    },
+    {
+        "label": "output_notebook",
+        "importPath": "bokeh.io",
+        "description": "bokeh.io",
+        "isExtraImport": true,
         "detail": "bokeh.io",
         "documentation": {}
     },
@@ -2010,6 +2122,24 @@
         "description": "copilot.import requests",
         "peekOfCode": "def csv_to_dataframe(csv_file):\n    \"\"\"\n    This function uses pandas to automatically generate a dataframe with the columns cast to the type of the first row in a csv file passed to the function as an argument. The function should return the dataframe and the column names as a list of strings.\n    \"\"\"\n    # read the csv file\n    df = pd.read_csv(csv_file)\n    # get the column names\n    column_names = list(df.columns)\n    return df, column_names",
         "detail": "copilot.import requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_drudge_links",
+        "kind": 2,
+        "importPath": "src.1",
+        "description": "src.1",
+        "peekOfCode": "def get_drudge_links():\n    \"\"\"\n    This function parses the text on drudge report and returns a list of links to articles\n    \"\"\"\n    # get the html of the drudge report\n    drudge_html = requests.get('https://www.drudgereport.com/')\n    # parse the html\n    drudge_soup = soup(drudge_html.text, 'html.parser')\n    # get the links\n    drudge_links = drudge_soup.find_all('a')",
+        "detail": "src.1",
+        "documentation": {}
+    },
+    {
+        "label": "csv_to_dataframe",
+        "kind": 2,
+        "importPath": "src.1",
+        "description": "src.1",
+        "peekOfCode": "def csv_to_dataframe(csv_file):\n    \"\"\"\n    This function uses pandas to automatically generate a dataframe with the columns cast to the type of the first row in a csv file passed to the function as an argument. The function should return the dataframe and the column names as a list of strings.\n    \"\"\"\n    # read the csv file\n    df = pd.read_csv(csv_file)\n    # get the column names\n    column_names = list(df.columns)\n    return df, column_names",
+        "detail": "src.1",
         "documentation": {}
     },
     {
