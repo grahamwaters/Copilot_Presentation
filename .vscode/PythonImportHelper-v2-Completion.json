@@ -1,5 +1,205 @@
 [
     {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "OffsetImage",
+        "importPath": "matplotlib.offsetbox",
+        "description": "matplotlib.offsetbox",
+        "isExtraImport": true,
+        "detail": "matplotlib.offsetbox",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "urllib",
+        "description": "urllib",
+        "isExtraImport": true,
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
         "label": "collections,",
         "kind": 6,
         "isExtraImport": true,
@@ -9,53 +209,272 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
+        "label": "nltk",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "tqdm",
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "tqdm",
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "matplotlib.pyplot",
+        "label": "yfinance",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
+        "importPath": "yfinance",
+        "description": "yfinance",
+        "detail": "yfinance",
+        "documentation": {}
+    },
+    {
+        "label": "pywaffle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pywaffle",
+        "description": "pywaffle",
+        "detail": "pywaffle",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "tldextract",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tldextract",
+        "description": "tldextract",
+        "detail": "tldextract",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "figure",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "importPath": "bokeh.plotting",
+        "description": "bokeh.plotting",
+        "isExtraImport": true,
+        "detail": "bokeh.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "HoverTool",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnDataSource",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "HoverTool",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnDataSource",
+        "importPath": "bokeh.models",
+        "description": "bokeh.models",
+        "isExtraImport": true,
+        "detail": "bokeh.models",
+        "documentation": {}
+    },
+    {
+        "label": "factor_cmap",
+        "importPath": "bokeh.transform",
+        "description": "bokeh.transform",
+        "isExtraImport": true,
+        "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "factor_cmap",
+        "importPath": "bokeh.transform",
+        "description": "bokeh.transform",
+        "isExtraImport": true,
+        "detail": "bokeh.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Spectral6",
+        "importPath": "bokeh.palettes",
+        "description": "bokeh.palettes",
+        "isExtraImport": true,
+        "detail": "bokeh.palettes",
+        "documentation": {}
+    },
+    {
+        "label": "Spectral6",
+        "importPath": "bokeh.palettes",
+        "description": "bokeh.palettes",
+        "isExtraImport": true,
+        "detail": "bokeh.palettes",
         "documentation": {}
     },
     {
@@ -126,79 +545,6 @@
         "importPath": "requests.",
         "description": "requests.",
         "detail": "requests.",
-        "documentation": {}
-    },
-    {
-        "label": "yfinance",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "yfinance",
-        "description": "yfinance",
-        "detail": "yfinance",
-        "documentation": {}
-    },
-    {
-        "label": "limits",
-        "importPath": "ratelimit",
-        "description": "ratelimit",
-        "isExtraImport": true,
-        "detail": "ratelimit",
-        "documentation": {}
-    },
-    {
-        "label": "sleep_and_retry",
-        "importPath": "ratelimit",
-        "description": "ratelimit",
-        "isExtraImport": true,
-        "detail": "ratelimit",
-        "documentation": {}
-    },
-    {
-        "label": "limits",
-        "importPath": "ratelimit",
-        "description": "ratelimit",
-        "isExtraImport": true,
-        "detail": "ratelimit",
-        "documentation": {}
-    },
-    {
-        "label": "sleep_and_retry",
-        "importPath": "ratelimit",
-        "description": "ratelimit",
-        "isExtraImport": true,
-        "detail": "ratelimit",
-        "documentation": {}
-    },
-    {
-        "label": "limits",
-        "importPath": "ratelimit",
-        "description": "ratelimit",
-        "isExtraImport": true,
-        "detail": "ratelimit",
-        "documentation": {}
-    },
-    {
-        "label": "sleep_and_retry",
-        "importPath": "ratelimit",
-        "description": "ratelimit",
-        "isExtraImport": true,
-        "detail": "ratelimit",
-        "documentation": {}
-    },
-    {
-        "label": "limits",
-        "importPath": "ratelimit",
-        "description": "ratelimit",
-        "isExtraImport": true,
-        "detail": "ratelimit",
-        "documentation": {}
-    },
-    {
-        "label": "sleep_and_retry",
-        "importPath": "ratelimit",
-        "description": "ratelimit",
-        "isExtraImport": true,
-        "detail": "ratelimit",
         "documentation": {}
     },
     {
@@ -310,349 +656,12 @@
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "random",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "random",
-        "description": "random",
-        "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "seaborn",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "seaborn",
-        "description": "seaborn",
-        "detail": "seaborn",
-        "documentation": {}
-    },
-    {
-        "label": "math",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "math",
-        "description": "math",
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "itertools",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "itertools",
-        "description": "itertools",
-        "detail": "itertools",
-        "documentation": {}
-    },
-    {
-        "label": "functools",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "functools",
-        "description": "functools",
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "operator",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "operator",
-        "description": "operator",
-        "detail": "operator",
-        "documentation": {}
-    },
-    {
-        "label": "nltk",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "nltk",
-        "description": "nltk",
-        "detail": "nltk",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm",
-        "description": "tqdm",
-        "isExtraImport": true,
-        "detail": "tqdm",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm",
-        "description": "tqdm",
-        "isExtraImport": true,
-        "detail": "tqdm",
-        "documentation": {}
-    },
-    {
-        "label": "pywaffle",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pywaffle",
-        "description": "pywaffle",
-        "detail": "pywaffle",
-        "documentation": {}
-    },
-    {
-        "label": "warnings",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "warnings",
-        "description": "warnings",
-        "detail": "warnings",
-        "documentation": {}
-    },
-    {
-        "label": "tldextract",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "tldextract",
-        "description": "tldextract",
-        "detail": "tldextract",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "TextBlob",
-        "importPath": "textblob",
-        "description": "textblob",
-        "isExtraImport": true,
-        "detail": "textblob",
-        "documentation": {}
-    },
-    {
-        "label": "TextBlob",
-        "importPath": "textblob",
-        "description": "textblob",
-        "isExtraImport": true,
-        "detail": "textblob",
-        "documentation": {}
-    },
-    {
-        "label": "figure",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "show",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "output_file",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "figure",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "show",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "output_file",
-        "importPath": "bokeh.plotting",
-        "description": "bokeh.plotting",
-        "isExtraImport": true,
-        "detail": "bokeh.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "HoverTool",
-        "importPath": "bokeh.models",
-        "description": "bokeh.models",
-        "isExtraImport": true,
-        "detail": "bokeh.models",
-        "documentation": {}
-    },
-    {
-        "label": "ColumnDataSource",
-        "importPath": "bokeh.models",
-        "description": "bokeh.models",
-        "isExtraImport": true,
-        "detail": "bokeh.models",
-        "documentation": {}
-    },
-    {
-        "label": "HoverTool",
-        "importPath": "bokeh.models",
-        "description": "bokeh.models",
-        "isExtraImport": true,
-        "detail": "bokeh.models",
-        "documentation": {}
-    },
-    {
-        "label": "ColumnDataSource",
-        "importPath": "bokeh.models",
-        "description": "bokeh.models",
-        "isExtraImport": true,
-        "detail": "bokeh.models",
-        "documentation": {}
-    },
-    {
-        "label": "factor_cmap",
-        "importPath": "bokeh.transform",
-        "description": "bokeh.transform",
-        "isExtraImport": true,
-        "detail": "bokeh.transform",
-        "documentation": {}
-    },
-    {
-        "label": "factor_cmap",
-        "importPath": "bokeh.transform",
-        "description": "bokeh.transform",
-        "isExtraImport": true,
-        "detail": "bokeh.transform",
-        "documentation": {}
-    },
-    {
-        "label": "Spectral6",
-        "importPath": "bokeh.palettes",
-        "description": "bokeh.palettes",
-        "isExtraImport": true,
-        "detail": "bokeh.palettes",
-        "documentation": {}
-    },
-    {
-        "label": "Spectral6",
-        "importPath": "bokeh.palettes",
-        "description": "bokeh.palettes",
-        "isExtraImport": true,
-        "detail": "bokeh.palettes",
-        "documentation": {}
-    },
-    {
-        "label": "OffsetImage",
-        "importPath": "matplotlib.offsetbox",
-        "description": "matplotlib.offsetbox",
-        "isExtraImport": true,
-        "detail": "matplotlib.offsetbox",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "urllib",
-        "description": "urllib",
-        "isExtraImport": true,
-        "detail": "urllib",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
+        "label": "copilot_proportion",
+        "kind": 2,
+        "importPath": "copilot.copilot_proportion_illustration",
+        "description": "copilot.copilot_proportion_illustration",
+        "peekOfCode": "def copilot_proportion():\n    total_developers = 100\n    copilot_users = 20\n    proportion = copilot_users / total_developers\n    fig, ax = plt.subplots()\n    copilot_icon = Image.open(request.urlopen(\"https://github.githubassets.com/images/icons/copilot/cp-head-square.png\"))\n    copilot_icon = np.array(copilot_icon)\n    copilot_icon = OffsetImage(copilot_icon, zoom=0.1)\n    not_copilot_icon = Image.open(request.urlopen(\"https://cdn-icons-png.flaticon.com/512/6515/6515181.png\"))\n    not_copilot_icon = np.array(not_copilot_icon)",
+        "detail": "copilot.copilot_proportion_illustration",
         "documentation": {}
     },
     {
@@ -662,6 +671,33 @@
         "description": "copilot.example_one",
         "peekOfCode": "def example_one(string):\n    \"\"\"\n    example_one is a function that takes a string as its input, and reverses the order of the characters in the string.\n    then it removes all the letters that are in prime positions in the string such as the first, third, fifth, etc.\n    :param string: the string to be reversed and modified\n    :type string: string\n    :return: the modified string\n    :rtype: string\n    \"\"\"\n    string = string[::-1]",
         "detail": "copilot.example_one",
+        "documentation": {}
+    },
+    {
+        "label": "get_drudge_links",
+        "kind": 2,
+        "importPath": "copilot.import requests",
+        "description": "copilot.import requests",
+        "peekOfCode": "def get_drudge_links():\n    \"\"\"\n    This function parses the text on drudge report and returns a list of links to articles\n    \"\"\"\n    # get the html of the drudge report\n    drudge_html = requests.get('https://www.drudgereport.com/')\n    # parse the html\n    drudge_soup = soup(drudge_html.text, 'html.parser')\n    # get the links\n    drudge_links = drudge_soup.find_all('a')",
+        "detail": "copilot.import requests",
+        "documentation": {}
+    },
+    {
+        "label": "csv_to_dataframe",
+        "kind": 2,
+        "importPath": "copilot.import requests",
+        "description": "copilot.import requests",
+        "peekOfCode": "def csv_to_dataframe(csv_file):\n    \"\"\"\n    This function uses pandas to automatically generate a dataframe with the columns cast to the type of the first row in a csv file passed to the function as an argument. The function should return the dataframe and the column names as a list of strings.\n    \"\"\"\n    # read the csv file\n    df = pd.read_csv(csv_file)\n    # get the column names\n    column_names = list(df.columns)\n    return df, column_names",
+        "detail": "copilot.import requests",
+        "documentation": {}
+    },
+    {
+        "label": "read_xlsx",
+        "kind": 2,
+        "importPath": "full repo.empty_project_example",
+        "description": "full repo.empty_project_example",
+        "peekOfCode": "def read_xlsx(file_path):\n    # Read in the file\n    with pd.ExcelFile(file_path) as xlsx:\n        # Get the sheet names\n        sheet_names = xlsx.sheet_names\n        # Create an empty dictionary to store the dataframes\n        dfs = {}\n        # Iterate through the sheets\n        for sheet in sheet_names:\n            # Get the dataframe from the sheet",
+        "detail": "full repo.empty_project_example",
         "documentation": {}
     },
     {
@@ -775,37 +811,10 @@
     {
         "label": "speak_for_the_trees",
         "kind": 2,
-        "importPath": "ex1",
-        "description": "ex1",
+        "importPath": "full repo.folium_trees_demo",
+        "description": "full repo.folium_trees_demo",
         "peekOfCode": "def speak_for_the_trees():\n    # the Austonian Lorax that speaks for the trees\n    print(\"I speak for the trees!\")\n    \"\"\"\n    Create A Data visualization of Trees in Austin using Folium Tree data for Austin, Texas can be accessed via API at: https://data.austintexas.gov/resource/wrik-xasw.json ## Instructions - Create a Folium map of Austin, Texas that has tree data from the API above. - The map should show the roads, parks, and trees in Austin, Texas. - Trees should be represented by a green circle. - Parks should be represented by a blue circle. - Roads should be represented by a black line.\n    \"\"\"\n    # Get tree data from API\n    url = \"https://data.austintexas.gov/resource/wrik-xasw.json\"\n    trees = requests.get(url).json()\n    # Create Folium map centered on Austin, Texas",
-        "detail": "ex1",
-        "documentation": {}
-    },
-    {
-        "label": "get_drudge_links",
-        "kind": 2,
-        "importPath": "import requests",
-        "description": "import requests",
-        "peekOfCode": "def get_drudge_links():\n    \"\"\"\n    This function parses the text on drudge report and returns a list of links to articles\n    \"\"\"\n    # get the html of the drudge report\n    drudge_html = requests.get('https://www.drudgereport.com/')\n    # parse the html\n    drudge_soup = soup(drudge_html.text, 'html.parser')\n    # get the links\n    drudge_links = drudge_soup.find_all('a')",
-        "detail": "import requests",
-        "documentation": {}
-    },
-    {
-        "label": "csv_to_dataframe",
-        "kind": 2,
-        "importPath": "import requests",
-        "description": "import requests",
-        "peekOfCode": "def csv_to_dataframe(csv_file):\n    \"\"\"\n    This function uses pandas to automatically generate a dataframe with the columns cast to the type of the first row in a csv file passed to the function as an argument. The function should return the dataframe and the column names as a list of strings.\n    \"\"\"\n    # read the csv file\n    df = pd.read_csv(csv_file)\n    # get the column names\n    column_names = list(df.columns)\n    return df, column_names",
-        "detail": "import requests",
-        "documentation": {}
-    },
-    {
-        "label": "copilot_proportion",
-        "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def copilot_proportion():\n    total_developers = 100\n    copilot_users = 20\n    proportion = copilot_users / total_developers\n    fig, ax = plt.subplots()\n    copilot_icon = Image.open(request.urlopen(\"https://github.githubassets.com/images/icons/copilot/cp-head-square.png\"))\n    copilot_icon = np.array(copilot_icon)\n    copilot_icon = OffsetImage(copilot_icon, zoom=0.1)\n    not_copilot_icon = Image.open(request.urlopen(\"https://cdn-icons-png.flaticon.com/512/6515/6515181.png\"))\n    not_copilot_icon = np.array(not_copilot_icon)",
-        "detail": "main",
+        "detail": "full repo.folium_trees_demo",
         "documentation": {}
     }
 ]
