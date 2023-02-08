@@ -53,3 +53,11 @@ Question: Are you familiar with any other libraries?
 Answer: I'm also familiar with the following libraries: plotly, folium, and streamlit.
 Question: Could you please list all the libraries you are familiar with in a list? I need to know EVERY library you are familiar with.
 Answer: I'm familiar with the following libraries: pandas, numpy, matplotlib, seaborn, sklearn, tensorflow, keras, pytorch, plotly, folium, and streamlit. I also know how to use the following libraries: scipy, statsmodels, nltk, gensim, and spacy. I also can help write code in the following languages: JavaScript, HTML/CSS, SQL, and Java.
+
+# Table of Contents
+
+1. [Demo 1 - Drudge Report Scraping](./src/webscraping_demo.py)
+2. [Demo 2 - Regex Creation](./src/regex_creation.py)
+3. [Demo 3 - Sentiment Analysis](./src/sentiment_analysis.py)
+4. [Demo 4 - Data Visualization](./src/data_visualization.py)
+5. [Debugging Prompt Generator](./demos/debugging/debugging_helper.ipynb)

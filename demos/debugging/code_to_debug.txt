@@ -8,11 +8,6 @@ def read_xlsx(file_path):
     read_xlsx is a function that reads an XLSX file and returns dataframes where each sheet is a dataframe, each column of each df should be type-cast based on the values from the corresponding sheet in the second row, and the column names are in the first row. The function should save these dataframes in a folder called `extracted_dfs` with each sheet in its own folder named after the sheet's name in the file. Within these folders, the function should save the dataframe as a pickle file. The function should return a dictionary with the sheet names as keys and the dataframe information as values.
 
     The libraries used in this function are: `os`, `pandas`, `numpy`.
-
-    :param file_path: _description_
-    :type file_path: _type_
-    :return: _description_
-    :rtype: _type_
     """
     # Read in the file
     with pd.ExcelFile(file_path) as xlsx:
@@ -44,8 +39,10 @@ def read_xlsx(file_path):
                 # Get the type of the value in the second row
                 col_type = type(second_row[col])
 
-                # Cast the column to the type of the second row value
-                df[col] = df[col].astype(col_type)
+                try:
+                    df[col] = df[col].astype(col_type)
+                except KeyError:
+                    print(f"Column {col} doesn't exist in the DataFrame")
 
             # Create a folder for the sheet if it doesn't exist
             os.makedirs(f"../data/processed/extracted_dfs/{sheet}", exist_ok=True)
@@ -58,9 +55,3 @@ def read_xlsx(file_path):
 
     # Return the dictionary
     return dfs
-
-
-# Read in the data
-dfs = read_xlsx(file_path)
-# show one of the dataframes head
-dfs["Categories"].head()

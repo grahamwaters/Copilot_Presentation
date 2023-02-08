@@ -1,51 +1,32 @@
 ---------------------------------------------------------------------------
-KeyError                                  Traceback (most recent call last)
-File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/indexes/base.py:3803, in Index.get_loc(self, key, method, tolerance)
-   3802 try:
--> 3803     return self._engine.get_loc(casted_key)
-   3804 except KeyError as err:
-
-File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/_libs/index.pyx:138, in pandas._libs.index.IndexEngine.get_loc()
-
-File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/_libs/index.pyx:165, in pandas._libs.index.IndexEngine.get_loc()
-
-File pandas/_libs/hashtable_class_helper.pxi:5745, in pandas._libs.hashtable.PyObjectHashTable.get_item()
-
-File pandas/_libs/hashtable_class_helper.pxi:5753, in pandas._libs.hashtable.PyObjectHashTable.get_item()
-
-KeyError: 'ID'
-
-The above exception was the direct cause of the following exception:
-
-KeyError                                  Traceback (most recent call last)
-Cell In[6], line 2
+IndexError                                Traceback (most recent call last)
+Cell In[12], line 2
       1 # Read in the data
 ----> 2 dfs = read_xlsx(file_path)
       3 # show one of the dataframes head
-      4 dfs["Categories"].head()
+      4 dfs
 
-Cell In[5], line 48, in read_xlsx(file_path)
-     45     col_type = type(second_row[col])
-     47     # Cast the column to the type of the second row value
----> 48     df[col] = df[col].astype(col_type)
-     50 # Create a folder for the sheet if it doesn't exist
-     51 os.makedirs(f"../data/processed/extracted_dfs/{sheet}", exist_ok=True)
+Cell In[10], line 26, in read_xlsx(file_path)
+     23 df = pd.read_excel(xlsx, sheet_name=sheet)
+     25 # Get the second row of the dataframe
+---> 26 second_row = df.iloc[1]
+     28 # Get the first row of the dataframe
+     29 first_row = df.iloc[0]
 
-File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/frame.py:3805, in DataFrame.__getitem__(self, key)
-   3803 if self.columns.nlevels > 1:
-   3804     return self._getitem_multilevel(key)
--> 3805 indexer = self.columns.get_loc(key)
-   3806 if is_integer(indexer):
-   3807     indexer = [indexer]
+File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/indexing.py:1073, in _LocationIndexer.__getitem__(self, key)
+   1070 axis = self.axis or 0
+   1072 maybe_callable = com.apply_if_callable(key, self.obj)
+-> 1073 return self._getitem_axis(maybe_callable, axis=axis)
 
-File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/indexes/base.py:3805, in Index.get_loc(self, key, method, tolerance)
-   3803     return self._engine.get_loc(casted_key)
-   3804 except KeyError as err:
--> 3805     raise KeyError(key) from err
-   3806 except TypeError:
-   3807     # If we have a listlike key, _check_indexing_error will raise
-   3808     #  InvalidIndexError. Otherwise we fall through and re-raise
-   3809     #  the TypeError.
-   3810     self._check_indexing_error(key)
+File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/indexing.py:1625, in _iLocIndexer._getitem_axis(self, key, axis)
+   1622     raise TypeError("Cannot index by location index with a non-integer key")
+   1624 # validate the location
+-> 1625 self._validate_integer(key, axis)
+   1627 return self.obj._ixs(key, axis=axis)
 
-KeyError: 'ID'
+File /opt/anaconda3/envs/groupme/lib/python3.9/site-packages/pandas/core/indexing.py:1557, in _iLocIndexer._validate_integer(self, key, axis)
+   1555 len_axis = len(self.obj._get_axis(axis))
+   1556 if key >= len_axis or key < -len_axis:
+-> 1557     raise IndexError("single positional indexer is out-of-bounds")
+
+IndexError: single positional indexer is out-of-bounds
