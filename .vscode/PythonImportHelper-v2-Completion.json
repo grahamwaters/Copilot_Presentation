@@ -3044,7 +3044,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def get_book():\n    \"\"\"\n    get_book Use the Gutenberg Project API to get the text of the book.\n    \"\"\"\n    book = requests.get('http://www.gutenberg.org/files/1400/1400-0.txt').text\n    return book\ndef tokenize(book):\n    \"\"\"\n    tokenize Use the nltk library to tokenize the text into sentences.\n    \"\"\"",
+        "peekOfCode": "def get_book():\n    \"\"\"\n    get_book Use the Gutenberg Project API to get the text of the book.\n    \"\"\"\n    book = requests.get('http://www.gutenberg.org/files/1400/1400-0.txt').text\n    # just get the first chapter for now which is the second occurrence of 'Chapter I' to the second occurrence of 'Chapter II'\n    # second occurrence of 'Chapter I' is second element of find all 'Chapter I'\n    start = book.find_all('Chapter I')[1]\n    end = book.find_all('Chapter II')[1]\n    book = book[start:end]",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
@@ -3071,7 +3071,7 @@
         "kind": 2,
         "importPath": "starting_files.sentiment_analysis",
         "description": "starting_files.sentiment_analysis",
-        "peekOfCode": "def swarm_plot(sentiment_scores):\n    \"\"\"\n    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot.\n    \"\"\"\n    df = pd.DataFrame(sentiment_scores)\n    plt.figure(figsize=(10, 5))\n    sns.swarmplot(x='compound', y='sentence', data=df)\n    plt.title('Sentiment of each sentence in Great Expectations')\n    plt.xlabel('Sentiment Score')\n    plt.ylabel('Sentence')",
+        "peekOfCode": "def swarm_plot(sentiment_scores):\n    \"\"\"\n    swarm_plot Use the seaborn library to plot the sentiment of each sentence as a swarm plot.\n    \"\"\"\n    df = pd.DataFrame(sentiment_scores)\n    sns.swarmplot(x='compound', y='sentence', data=df)\ndef add_title():\n    \"\"\"\n    add_title Use the matplotlib library to add a title to the plot.\n    \"\"\"",
         "detail": "starting_files.sentiment_analysis",
         "documentation": {}
     },
